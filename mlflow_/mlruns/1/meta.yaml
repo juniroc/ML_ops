@@ -1,0 +1,4 @@
+artifact_location: file:///home/jovyan/work/210810_prac/mlruns/1
+experiment_id: '1'
+lifecycle_stage: active
+name: hyper_param_runs

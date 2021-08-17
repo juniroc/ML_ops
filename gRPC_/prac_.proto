@@ -1,0 +1,51 @@
+syntax = "proto3";
+
+package practice;
+
+service TODO_APP {
+  // Create TODO_
+  rpc Create_TD (TD_create) returns (complete_C);
+  // Remove TODO_
+  rpc Remove_TD (TD_remove) returns (complete_D);
+  // finish TODO_
+  rpc Update_TD (TD_update) returns (complete_U);
+  // Read TODO_
+  rpc Read_TD (TD_read) returns (complete_R);
+}
+
+
+// the Create ToDo
+message TD_create {
+  string Todo = 1;
+}
+
+message complete_C {
+  string message = 1;
+}
+
+message TD_remove {
+  string Todo = 1;
+}
+
+message complete_D {
+  string message = 1;
+}
+
+message TD_update {
+  string Todo = 1;
+}
+
+message complete_U {
+  string message = 1;
+}
+
+message TD_read {
+  string Todo = 1;
+}
+
+message complete_R {
+  string list = 1;
+}
+
+
+

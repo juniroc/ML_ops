@@ -1,0 +1,5 @@
+project: feast_driver_ranking_tutorial
+registry: data/registry.db
+provider: local
+online_store:
+    path: data/online_store.db

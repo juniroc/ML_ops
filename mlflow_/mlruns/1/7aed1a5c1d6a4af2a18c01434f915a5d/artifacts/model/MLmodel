@@ -1,0 +1,14 @@
+artifact_path: model
+flavors:
+  keras:
+    data: data
+    keras_module: keras
+    keras_version: 2.3.1
+    save_format: tf
+  python_function:
+    data: data
+    env: conda.yaml
+    loader_module: mlflow.keras
+    python_version: 3.6.13
+run_id: 7aed1a5c1d6a4af2a18c01434f915a5d
+utc_time_created: '2021-08-10 06:52:36.157190'

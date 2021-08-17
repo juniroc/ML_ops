@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/210810_prac/mlruns/1/d6f717bb97a844898e8db0b8422cedde/artifacts
+end_time: 1628652816813
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+name: ''
+run_id: d6f717bb97a844898e8db0b8422cedde
+run_uuid: d6f717bb97a844898e8db0b8422cedde
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1628652794145
+status: 3
+tags: []
+user_id: jovyan
