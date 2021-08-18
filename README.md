@@ -3,7 +3,7 @@
 ## model_serving
 * [**Flask**](https://github.com/juniroc/ML_ops/tree/main/model_serving_using_flask)
 
-* [**BentoML**](https://github.com/juniroc/ML_ops/tree/mainBentoml_)
+* [**BentoML**](https://github.com/juniroc/ML_ops/tree/main/Bentoml_)
 
 * [**mlflow**](https://github.com/juniroc/ML_ops/tree/main/mlflow_)
 
