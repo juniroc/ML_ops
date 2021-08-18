@@ -18,7 +18,7 @@ pip install feast scikit-learn parquet-cli
 feast init feast_driver_ranking_tutorial
 ```
 
-![python_exec](https://gitlab.com/01ai.team/aiops/minjun_lee/ai_ops/-/raw/main/feast_/capture/1.PNG)
+![python_exec](https://github.com/juniroc/ML_ops/blob/main/feast_/capture/1.PNG)
 
 ---
 
@@ -76,12 +76,12 @@ online_store:
 
 
 
-![python_exec](https://gitlab.com/01ai.team/aiops/minjun_lee/ai_ops/-/raw/main/feast_/capture/2.PNG)
+![python_exec](https://github.com/juniroc/ML_ops/blob/main/feast_/capture/2.PNG)
 
 
 `data_list`
 
-![python_exec](https://gitlab.com/01ai.team/aiops/minjun_lee/ai_ops/-/raw/main/feast_/capture/6.PNG)
+![python_exec](https://github.com/juniroc/ML_ops/blob/main/feast_/capture/6.PNG)
 
 ---
 
@@ -93,7 +93,7 @@ curl -o /content/feast_driver_ranking_tutorial/driver_orders.csv https://raw.git
 ls /content/feast_driver_ranking_tutorial/
 ```
 
-![python_exec](https://gitlab.com/01ai.team/aiops/minjun_lee/ai_ops/-/raw/main/feast_/capture/3.PNG)
+![python_exec](https://github.com/juniroc/ML_ops/blob/main/feast_/capture/3.PNG)
 
 ---
 
@@ -105,11 +105,11 @@ parq ./feast_driver_ranking_tutorial/data/driver_stats.parquet --tail 10
 
 `driver_stats.parquet file`
 
-![python_exec](https://gitlab.com/01ai.team/aiops/minjun_lee/ai_ops/-/raw/main/feast_/capture/4.PNG)
+![python_exec](https://github.com/juniroc/ML_ops/blob/main/feast_/capture/4.PNG)
 
 `driver_orders.csv file`
 
-![python_exec](https://gitlab.com/01ai.team/aiops/minjun_lee/ai_ops/-/raw/main/feast_/capture/5.PNG)
+![python_exec](https://github.com/juniroc/ML_ops/blob/main/feast_/capture/5.PNG)
 
 
 ---
@@ -176,12 +176,12 @@ dump(reg, "driver_model.bin")
 
 `실행결과`
 
-![python_exec](https://gitlab.com/01ai.team/aiops/minjun_lee/ai_ops/-/raw/main/feast_/capture/7.PNG)
+![python_exec](https://github.com/juniroc/ML_ops/blob/main/feast_/capture/7.PNG)
 
 
 `training_df`
 
-![python_exec](https://gitlab.com/01ai.team/aiops/minjun_lee/ai_ops/-/raw/main/feast_/capture/8.PNG)
+![python_exec](https://github.com/juniroc/ML_ops/blob/main/feast_/capture/8.PNG)
 
 ---
 
@@ -193,7 +193,7 @@ dump(reg, "driver_model.bin")
 ```
 feast materialize-incremental 2022-01-01T00:00:00
 ```
-![python_exec](https://gitlab.com/01ai.team/aiops/minjun_lee/ai_ops/-/raw/main/feast_/capture/9.PNG)
+![python_exec](https://github.com/juniroc/ML_ops/blob/main/feast_/capture/9.PNG)
 
 ---
 
@@ -269,11 +269,11 @@ make_drivers_prediction()
 
 `학습한 df`
 
-![python_exec](https://gitlab.com/01ai.team/aiops/minjun_lee/ai_ops/-/raw/main/feast_/capture/11.PNG)
+![python_exec](https://github.com/juniroc/ML_ops/blob/main/feast_/capture/11.PNG)
 
 
 * 이중 가장 최근 데이터를 이용
 
 `result`
 
-![python_exec](https://gitlab.com/01ai.team/aiops/minjun_lee/ai_ops/-/raw/main/feast_/capture/10.PNG)
+![python_exec](https://github.com/juniroc/ML_ops/blob/main/feast_/capture/10.PNG)
