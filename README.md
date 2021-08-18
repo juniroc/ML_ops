@@ -7,7 +7,6 @@
 
 * [**mlflow**](https://github.com/juniroc/ML_ops/tree/main/mlflow_)
 
-https://github.com/juniroc/ML_ops/tree/main/mlflow_
 ---
 
 ## model_experiment
