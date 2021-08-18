@@ -6,7 +6,7 @@ mlflow ui -h 0.0.0.0
 ```
 
 `capture_0` \
-![python_exec](https://gitlab.com/01ai.team/aiops/minjun_lee/ai_ops/-/raw/main/mlflow_/capture/0.JPG)
+![python_exec](https://github.com/juniroc/ML_ops/blob/main/mlflow_/capture/0.JPG)
 
 
 ---
@@ -21,7 +21,7 @@ mlflow experiments create -n hyper_param_runs
 
 
 `capture_1` \
-![python_exec](https://gitlab.com/01ai.team/aiops/minjun_lee/ai_ops/-/raw/main/mlflow_/capture/1.JPG)
+![python_exec](https://github.com/juniroc/ML_ops/blob/main/mlflow_/capture/1.JPG)
 
 
 ---
@@ -94,7 +94,7 @@ mlflow run -e hyperopt --experiment-id 1 ~/.
 ```
 
 `capture_2` \
-![python_exec](https://gitlab.com/01ai.team/aiops/minjun_lee/ai_ops/-/raw/main/mlflow_/capture/2.JPG)
+![python_exec](https://github.com/juniroc/ML_ops/blob/main/mlflow_/capture/2.JPG)
 
 ---
 
@@ -102,11 +102,11 @@ mlflow run -e hyperopt --experiment-id 1 ~/.
   * 가장 높은 성능을 지닌 experiment 출력
 
 `capture_3` \
-![python_exec](https://gitlab.com/01ai.team/aiops/minjun_lee/ai_ops/-/raw/main/mlflow_/capture/3.JPG)
+![python_exec](https://github.com/juniroc/ML_ops/blob/main/mlflow_/capture/3.JPG)
 
 
 `capture_4` \
-![python_exec](https://gitlab.com/01ai.team/aiops/minjun_lee/ai_ops/-/raw/main/mlflow_/capture/4.JPG)
+![python_exec](https://github.com/juniroc/ML_ops/blob/main/mlflow_/capture/4.JPG)
 
 ---
 
@@ -118,7 +118,7 @@ mlflow models serve -m mlruns/1/f8a4e7ee19374484948c1f9b5c2de7b5/artifacts/model
 ```
 
 `capture_5` \
-![python_exec](https://gitlab.com/01ai.team/aiops/minjun_lee/ai_ops/-/raw/main/mlflow_/capture/5.JPG)
+![python_exec](https://github.com/juniroc/ML_ops/blob/main/mlflow_/capture/5.JPG)
 ---
 
 ### 7. Inference_by_served_model
@@ -129,10 +129,10 @@ curl -X POST -H "Content-Type:application/json; format=pandas-split" --data '{"c
 ```
 
 `capture_6` \
-![python_exec](https://gitlab.com/01ai.team/aiops/minjun_lee/ai_ops/-/raw/main/mlflow_/capture/6.JPG)
+![python_exec](https://github.com/juniroc/ML_ops/blob/main/mlflow_/capture/6.JPG)
 
 **result**
 
 
 `capture_7` \
-![python_exec](https://gitlab.com/01ai.team/aiops/minjun_lee/ai_ops/-/raw/main/mlflow_/capture/7.JPG)
+![python_exec](https://github.com/juniroc/ML_ops/blob/main/mlflow_/capture/7.JPG)
