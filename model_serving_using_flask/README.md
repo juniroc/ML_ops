@@ -18,7 +18,7 @@ export FLASK_APP=app
 flask run
 ```
 
-![cap1](https://gitlab.com/01ai.team/aiops/minjun_lee/ai_ops/-/raw/main/model_serving_using_flask/capture/cap_1.JPG)
+![cap1](https://github.com/juniroc/ML_ops/blob/main/model_serving_using_flask/capture/cap_1.JPG)
 
-![cap2](https://gitlab.com/01ai.team/aiops/minjun_lee/ai_ops/-/raw/main/model_serving_using_flask/capture/cap_2.JPG)
+![cap2](https://github.com/juniroc/ML_ops/blob/main/model_serving_using_flask/capture/cap_2.JPG)
 
