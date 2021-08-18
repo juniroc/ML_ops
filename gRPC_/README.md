@@ -119,7 +119,7 @@ python -m grpc_tools.protoc -I. --python_out=./python_ --grpc_python_out=./pytho
 
 
 
-![python_exec](https://gitlab.com/01ai.team/aiops/minjun_lee/ai_ops/-/raw/main/gRPC_/capture/0.PNG)
+![python_exec](https://github.com/juniroc/ML_ops/blob/main/gRPC_/capture/0.PNG)
 
 
 
@@ -328,10 +328,10 @@ python Todo_client.py -m `<c : 원하는 모드>` -k `<추가할 리스트>`
 **test_capture**
 \
 \
-![python_exec](https://gitlab.com/01ai.team/aiops/minjun_lee/ai_ops/-/raw/main/gRPC_/capture/1.PNG)
+![python_exec](https://github.com/juniroc/ML_ops/blob/main/gRPC_/capture/1.PNG)
 
 \
-![python_exec](https://gitlab.com/01ai.team/aiops/minjun_lee/ai_ops/-/raw/main/gRPC_/capture/2.PNG)
+![python_exec](https://github.com/juniroc/ML_ops/blob/main/gRPC_/capture/2.PNG)
 
 \
-![python_exec](https://gitlab.com/01ai.team/aiops/minjun_lee/ai_ops/-/raw/main/gRPC_/capture/3.PNG)
+![python_exec](https://github.com/juniroc/ML_ops/blob/main/gRPC_/capture/3.PNG)
