@@ -10,35 +10,35 @@
 4. model_.py 파일 실행
     * 이를 실행하면 bentoml folder에 Packaging 된 파일들이 생성
 ---
-![python_exec](https://gitlab.com/01ai.team/aiops/minjun_lee/ai_ops/-/raw/main/Bentoml_/capture/cap_1.JPG)
+![python_exec](https://github.com/juniroc/ML_ops/blob/main/Bentoml_/capture/cap_1.JPG)
 
 `Packagine files`
-![python_exec](https://gitlab.com/01ai.team/aiops/minjun_lee/ai_ops/-/raw/main/Bentoml_/capture/cap_2.JPG)
+![python_exec](https://github.com/juniroc/ML_ops/blob/main/Bentoml_/capture/cap_2.JPG)
 
 `Packaging files location`
-![python_exec](https://gitlab.com/01ai.team/aiops/minjun_lee/ai_ops/-/raw/main/Bentoml_/capture/cap_3.JPG)
+![python_exec](https://github.com/juniroc/ML_ops/blob/main/Bentoml_/capture/cap_3.JPG)
 
 ---
 5. (1) bentoml serve 를 이용해 바로 실행하거나
 5. (2) docker 컨테이너화하여 실행 
 
 `docker build`
-![python_exec](https://gitlab.com/01ai.team/aiops/minjun_lee/ai_ops/-/raw/main/Bentoml_/capture/cap_4.JPG)
+![python_exec](https://github.com/juniroc/ML_ops/blob/main/Bentoml_/capture/cap_4.JPG)
 
 `docker run`
-![python_exec](https://gitlab.com/01ai.team/aiops/minjun_lee/ai_ops/-/raw/main/Bentoml_/capture/cap_5_1.JPG)
+![python_exec](https://github.com/juniroc/ML_ops/blob/main/Bentoml_/capture/cap_5_1.JPG)
 
 `UI_of_BentoML`
-![python_exec](https://gitlab.com/01ai.team/aiops/minjun_lee/ai_ops/-/raw/main/Bentoml_/capture/cap_5_2.JPG)
+![python_exec](https://github.com/juniroc/ML_ops/blob/main/Bentoml_/capture/cap_5_2.JPG)
 
 `Inference to served ML`
-![python_exec](https://gitlab.com/01ai.team/aiops/minjun_lee/ai_ops/-/raw/main/Bentoml_/capture/cap_6.JPG)
+![python_exec](https://github.com/juniroc/ML_ops/blob/main/Bentoml_/capture/cap_6.JPG)
 
 `docker_Hub Push`
-![python_exec](https://gitlab.com/01ai.team/aiops/minjun_lee/ai_ops/-/raw/main/Bentoml_/capture/cap_7.JPG)
+![python_exec](https://github.com/juniroc/ML_ops/blob/main/Bentoml_/capture/cap_7.JPG)
 
 `docker_Hub list`
-![python_exec](https://gitlab.com/01ai.team/aiops/minjun_lee/ai_ops/-/raw/main/Bentoml_/capture/cap_7_2.JPG)
+![python_exec](https://github.com/juniroc/ML_ops/blob/main/Bentoml_/capture/cap_7_2.JPG)
 
 
 ---
