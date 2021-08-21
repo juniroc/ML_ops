@@ -1,0 +1,30 @@
+{
+  "batch_size": {
+    "_type": "choice",
+    "_value": [32, 64]
+  },
+  "time_steps": {
+    "_type": "choice",
+    "_value": [24, 30, 50, 100]
+  },
+  "num_head": {
+    "_type": "choice",
+    "_value": [8, 4, 2]
+  },
+  "embed_dim": {
+    "_type": "choice",
+    "_value": [256, 128, 64]
+  },
+  "num_encoderlayers": {
+    "_type": "choice",
+    "_value": [6, 4, 2]
+  },
+  "num_decoderlayers": {
+    "_type": "choice",
+    "_value": [6, 4, 2]
+  },
+  "dropout": {
+    "_type": "choice",
+    "_value": [0.2, 0.3, 0.4]
+  }
+}

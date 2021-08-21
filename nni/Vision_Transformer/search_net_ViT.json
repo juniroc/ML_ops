@@ -1,0 +1,30 @@
+{
+  "gamma": {
+    "_type": "uniform",
+    "_value": [0.5, 0.9]
+  },
+  "image_size": {
+    "_type": "choice",
+    "_value": [300]
+  },
+  "patch-num": {
+    "_type": "choice",
+    "_value": [15, 10, 6, 5]
+  },
+  "vt_dim": {
+    "_type": "choice",
+    "_value": [256, 128, 64]
+  },
+  "vt_depth": {
+    "_type": "choice",
+    "_value": [6, 5, 4]
+  },
+  "vt_heads": {
+    "_type": "choice",
+    "_value": [12, 8, 6]
+  },
+  "mlp_dim": {
+    "_type": "choice",
+    "_value": [1000, 500, 100]
+  }
+}

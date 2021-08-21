@@ -1,0 +1,19 @@
+authorName: nujnim
+experimentName: ViT_to_nni
+trialConcurrency: 2
+maxExecDuration: 99999d
+maxTrialNum: 100
+trainingServicePlatform: local
+searchSpacePath: search_net_ViT.json
+useAnnotation: false
+tuner:
+  #choice: TPE, Random, Anneal, Evolution, BatchTuner, MetisTuner
+  #SMAC (SMAC should be installed through nnictl)
+  builtinTunerName: TPE
+  classArgs:
+    #choice: maximize, minimize
+    optimize_mode: maximize
+trial:
+  codeDir: .
+  command: python main_ViT.py --download-dir ./dataset_real/chest_xray -a vit --batch-size 16 --epochs 5 --request-from-nni --num-classes 2 --gpu 0 
+  gpuNum: 1

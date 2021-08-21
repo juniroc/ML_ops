@@ -1,0 +1,18 @@
+authorName: nujnim
+experimentName: example_efficient_net
+trialConcurrency: 2
+maxExecDuration: 99999d
+maxTrialNum: 100
+trainingServicePlatform: local
+searchSpacePath: search_net-EfficientNet.json
+useAnnotation: false
+tuner:
+  codeDir: .
+  classFileName: tuner-EfficientNet.py
+  className: FixedProductTuner
+  classArgs:
+    product: 2
+trial:
+  codeDir: .
+  command: python main_EfficientNet.py custom --download-dir ./dataset_real -j 0 -a efficientnet --batch-size 16 --lr 0.048 --wd 1e-5 --epochs 5 --request-from-nni --resume ./model_best.pth.tar --resolution 300 --num-classes 2 --gpu 0
+  gpuNum: 1
