@@ -1,4 +1,4 @@
-# nni
+# nni for Hyperparameter
 
 ### image_classification
 * [**Efficient_Net**](https://github.com/juniroc/ML_ops/tree/main/nni/Efficient_Net)
