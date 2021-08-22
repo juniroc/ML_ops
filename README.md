@@ -29,3 +29,7 @@
 * [**NNI**](https://github.com/juniroc/ML_ops/tree/main/nni)
 
 
+---
+
+## Pipeline_pattern
+* [**feast_nni_bentoml_db**](https://github.com/juniroc/ML_ops/tree/main/feast_nni_bentoml_db)
