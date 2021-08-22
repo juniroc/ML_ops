@@ -82,7 +82,7 @@ trial:
   }
 }
 ```
-![image](https://github.com/juniroc/NNI_/blob/main/Efficient_Net/md_images/json_image.PNG)
+![image](https://github.com/juniroc/ML_ops/blob/main/nni/Efficient_Net/md_images/json_image.PNG)
 
 3. main_EfficientNet.py 정의
     1) Env_config
@@ -104,9 +104,9 @@ trial:
 
 4. webui로 모델 모니터링
     
-    ![image](https://github.com/juniroc/NNI_/blob/main/Efficient_Net/md_images/image1.png)
-    ![image](https://github.com/juniroc/NNI_/blob/main/Efficient_Net/md_images/image2.png)
-    ![image](https://github.com/juniroc/NNI_/blob/main/Efficient_Net/md_images/image3.png)
+    ![image](https://github.com/juniroc/ML_ops/blob/main/nni/Efficient_Net/md_images/image1.png)
+    ![image](https://github.com/juniroc/ML_ops/blob/main/nni/Efficient_Net/md_images/image2.png)
+    ![image](https://github.com/juniroc/ML_ops/blob/main/nni/Efficient_Net/md_images/image3.png)
     
 
 -----
