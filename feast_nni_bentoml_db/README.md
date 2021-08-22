@@ -4,8 +4,7 @@
 
 ## feast_
 
-![python_exec](https://github.com/juniroc/ML_ops/blob/main/feast_nni_bentoML_db/capture/0005.png)
-
+![python_exec](https://github.com/juniroc/ML_ops/blob/main/feast_nni_bentoml_db/capture/0005.png)
 ---
 
 ### 1. install feast_ and init
@@ -20,7 +19,7 @@ feast init fea_
 2. feature_store.yaml
 3. example.py (여기서는 `deploy_feature_store.py` 라는 이름으로 수정)
 
-![python_exec](https://github.com/juniroc/ML_ops/blob/main/feast_nni_bentoML_db/capture/0001.png)
+![python_exec](https://github.com/juniroc/ML_ops/blob/main/feast_nni_bentoml_db/capture/0001.png)
 
 
 
@@ -32,7 +31,7 @@ feast init fea_
 file_name : `ppr_data_.parquet` \
 dir_path : `fea_/data/`
 
-![python_exec](https://github.com/juniroc/ML_ops/blob/main/feast_nni_bentoML_db/capture/0002.png)
+![python_exec](https://github.com/juniroc/ML_ops/blob/main/feast_nni_bentoml_db/capture/0002.png)
 
 
 ### 3. edit `deploy_feature_store.py`
@@ -100,17 +99,17 @@ online_store:
 feast apply
 ```
 
-![python_exec](https://github.com/juniroc/ML_ops/blob/main/feast_nni_bentoML_db/capture/0003.png)
+![python_exec](https://github.com/juniroc/ML_ops/blob/main/feast_nni_bentoml_db/capture/0003.png)
 
 `data.folder`
 
-![python_exec](https://github.com/juniroc/ML_ops/blob/main/feast_nni_bentoML_db/capture/0004.png)
+![python_exec](https://github.com/juniroc/ML_ops/blob/main/feast_nni_bentoml_db/capture/0004.png)
 
 
 ### 6. get_train_from_offline_
 * get_historical_features() 로 학습시킬 데이터 로드
 
-![python_exec](https://github.com/juniroc/ML_ops/blob/main/feast_nni_bentoML_db/capture/0006.png)
+![python_exec](https://github.com/juniroc/ML_ops/blob/main/feast_nni_bentoml_db/capture/0006.png)
 
 * criterion 을 통해 7월 이전 데이터만 학습
 
@@ -154,7 +153,7 @@ get_train_from_offline_store('/workspace/ML_Ops/feast/fea_')
 
 ```
 
-![python_exec](https://github.com/juniroc/ML_ops/blob/main/feast_nni_bentoML_db/capture/0007.png)
+![python_exec](https://github.com/juniroc/ML_ops/blob/main/feast_nni_bentoml_db/capture/0007.png)
 
 
 
@@ -340,19 +339,19 @@ trial:
 nnictl create -p 8085 --config ./210819_.yaml
 ```
 
-![python_exec](https://github.com/juniroc/ML_ops/blob/main/feast_nni_bentoML_db/capture/0011.png)
+![python_exec](https://github.com/juniroc/ML_ops/blob/main/feast_nni_bentoml_db/capture/0011.png)
 
 
 
 ### 3. check nni by web ui
 
-![python_exec](https://github.com/juniroc/ML_ops/blob/main/feast_nni_bentoML_db/capture/0010.png)
+![python_exec](https://github.com/juniroc/ML_ops/blob/main/feast_nni_bentoml_db/capture/0010.png)
 
-![python_exec](https://github.com/juniroc/ML_ops/blob/main/feast_nni_bentoML_db/capture/0009.png)
+![python_exec](https://github.com/juniroc/ML_ops/blob/main/feast_nni_bentoml_db/capture/0009.png)
 
 ### 4. check saved models_
 
-![python_exec](https://github.com/juniroc/ML_ops/blob/main/feast_nni_bentoML_db/capture/0012.png)
+![python_exec](https://github.com/juniroc/ML_ops/blob/main/feast_nni_bentoml_db/capture/0012.png)
 
 
 
@@ -363,7 +362,7 @@ nnictl create -p 8085 --config ./210819_.yaml
 * 저장된 model 을 로드 및 bentoml로 패킹
 
 
-![python_exec](https://github.com/juniroc/ML_ops/blob/main/feast_nni_bentoML_db/capture/0013.png)
+![python_exec](https://github.com/juniroc/ML_ops/blob/main/feast_nni_bentoml_db/capture/0013.png)
 
 `model_packing_save.py`
 ```
@@ -425,7 +424,7 @@ python model_packing_save.py
 * path = `/root/bentoml/repository/Dr_lauren_classifier/~`
 
 
-![python_exec](https://github.com/juniroc/ML_ops/blob/main/feast_nni_bentoML_db/capture/0014.png)
+![python_exec](https://github.com/juniroc/ML_ops/blob/main/feast_nni_bentoml_db/capture/0014.png)
 
 
 ### 4. model serving
@@ -437,7 +436,7 @@ python model_packing_save.py
 bentoml serving Dr_lauren_classifier:latest
 ```
 
-![python_exec](https://github.com/juniroc/ML_ops/blob/main/feast_nni_bentoML_db/capture/0015.png)
+![python_exec](https://github.com/juniroc/ML_ops/blob/main/feast_nni_bentoml_db/capture/0015.png)
 
 
 ### 5. materialize data
@@ -445,13 +444,13 @@ bentoml serving Dr_lauren_classifier:latest
 * 데이터를 online_store로 load
 
 
-![python_exec](https://github.com/juniroc/ML_ops/blob/main/feast_nni_bentoML_db/capture/0016.png)
+![python_exec](https://github.com/juniroc/ML_ops/blob/main/feast_nni_bentoml_db/capture/0016.png)
 
 ```
 feast materialize 2021-01-01T00:00:00 2021-08-1T00:00:00
 ```
 
-![python_exec](https://github.com/juniroc/ML_ops/blob/main/feast_nni_bentoML_db/capture/0017.png)
+![python_exec](https://github.com/juniroc/ML_ops/blob/main/feast_nni_bentoml_db/capture/0017.png)
 
 
 ### 6. get_predict_from_online_store
@@ -476,7 +475,7 @@ def get_entities(path_,from_time_):
     return new_orders
 ```
 
-![python_exec](https://github.com/juniroc/ML_ops/blob/main/feast_nni_bentoML_db/capture/0018.png)
+![python_exec](https://github.com/juniroc/ML_ops/blob/main/feast_nni_bentoml_db/capture/0018.png)
 
 ```
 def get_df_from_online(feast_path_, entity_df_):
@@ -503,7 +502,7 @@ def get_df_from_online(feast_path_, entity_df_):
     return df[['time', 'weekday', 'weekend', 'instlo_1', 'instlo_2', 'inst_code', 'sysname_lo', 'sysname_eq','ntt_label']]
 ```
 
-![python_exec](https://github.com/juniroc/ML_ops/blob/main/feast_nni_bentoML_db/capture/0019.png)
+![python_exec](https://github.com/juniroc/ML_ops/blob/main/feast_nni_bentoml_db/capture/0019.png)
 
 
 ```
@@ -520,7 +519,7 @@ def get_infer_df_(entity_df_, online_df_):
     return infer_df
 ```
 
-![python_exec](https://github.com/juniroc/ML_ops/blob/main/feast_nni_bentoML_db/capture/0020.png)
+![python_exec](https://github.com/juniroc/ML_ops/blob/main/feast_nni_bentoml_db/capture/0020.png)
 
 
 ## to_db(mysql)
@@ -530,7 +529,7 @@ def get_infer_df_(entity_df_, online_df_):
 
 * online_inf 내에서 db로 연동하는 코드까지 구현
 
-![python_exec](https://github.com/juniroc/ML_ops/blob/main/feast_nni_bentoML_db/capture/0021.png)
+![python_exec](https://github.com/juniroc/ML_ops/blob/main/feast_nni_bentoml_db/capture/0021.png)
 
 * entity, event_timestamp, 기존 label, inference 한 결과를 입력
 
@@ -592,9 +591,9 @@ def main():
     pred_into_db(conn,infer_df)
 ```
 
-![python_exec](https://github.com/juniroc/ML_ops/blob/main/feast_nni_bentoML_db/capture/0022.png)
+![python_exec](https://github.com/juniroc/ML_ops/blob/main/feast_nni_bentoml_db/capture/0022.png)
 
-![python_exec](https://github.com/juniroc/ML_ops/blob/main/feast_nni_bentoML_db/capture/0023.png)
+![python_exec](https://github.com/juniroc/ML_ops/blob/main/feast_nni_bentoml_db/capture/0023.png)
 
 
 ---
