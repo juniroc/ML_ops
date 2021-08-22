@@ -100,7 +100,7 @@ trial:
 }
 ```
 
-![image1](https://github.com/juniroc/NNI_/blob/main/Vision_Transformer/md_image/json_image.png)
+![image1](https://github.com/juniroc/ML_ops/blob/main/nni/Vision_Transformer/md_image/json_image.png)
 
 
 3. main_vit.py 정의
@@ -116,10 +116,10 @@ trial:
         * validation_data로 평가
 
 4. webui 로 모델 모니터링
-![image1](https://github.com/juniroc/NNI_/blob/main/Vision_Transformer/md_image/image_1.png)
-![image2](https://github.com/juniroc/NNI_/blob/main/Vision_Transformer/md_image/image_2.png)
-![image3](https://github.com/juniroc/NNI_/blob/main/Vision_Transformer/md_image/image_3.png)
-![image4](https://github.com/juniroc/NNI_/blob/main/Vision_Transformer/md_image/image_4.png)
+![image1](https://github.com/juniroc/ML_ops/blob/main/nni/Vision_Transformer/md_image/image_1.png)
+![image2](https://github.com/juniroc/ML_ops/blob/main/nni/Vision_Transformer/md_image/image_2.png)
+![image3](https://github.com/juniroc/ML_ops/blob/main/nni/Vision_Transformer/md_image/image_3.png)
+![image4](https://github.com/juniroc/ML_ops/blob/main/nni/Vision_Transformer/md_image/image_4.png)
 
 -----
 
