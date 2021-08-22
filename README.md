@@ -31,5 +31,5 @@
 
 ---
 
-## Pipeline_pattern
+## Pipeline_Design
 * [**feast_nni_bentoml_db**](https://github.com/juniroc/ML_ops/tree/main/feast_nni_bentoml_db)
