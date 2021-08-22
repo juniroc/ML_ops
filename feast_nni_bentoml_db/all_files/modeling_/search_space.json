@@ -1,0 +1,14 @@
+{
+  "model_n": {
+    "_type": "choice",
+    "_value": ["lgb", "xgb"]
+  },
+  "ne": {
+    "_type": "choice",
+    "_value": [50, 60, 70, 80, 90, 100]
+  },
+  "seed": {
+    "_type": "choice",
+    "_value": [42, 32, 16, 8]
+  }
+}
