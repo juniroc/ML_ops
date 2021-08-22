@@ -1,10 +1,10 @@
 # feast_nni_bentoML_db
 
----
 
 ## feast_
 
 ![python_exec](https://github.com/juniroc/ML_ops/blob/main/feast_nni_bentoml_db/capture/0005.png)
+
 ---
 
 ### 1. install feast_ and init
