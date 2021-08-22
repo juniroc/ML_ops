@@ -98,7 +98,7 @@ trial:
 ```
 
 
-![image](https://github.com/juniroc/NNI_/blob/main/timeseries_transformer/capture/json.PNG)
+![image](https://github.com/juniroc/ML_ops/blob/main/nni/timeseries_transformer/capture/json.PNG)
 <!-- #endregion -->
 
 3. energy_transformer_nni.py 정의
@@ -130,9 +130,9 @@ trial:
 
 4. webui로 모델 모니터링
     
-    ![image](https://github.com/juniroc/NNI_/blob/main/timeseries_transformer/capture/webui_1.png)
-    ![image](https://github.com/juniroc/NNI_/blob/main/timeseries_transformer/capture/webui_2.png)
-    ![image](https://github.com/juniroc/NNI_/blob/main/timeseries_transformer/capture/webui_3.png)    
+    ![image](https://github.com/juniroc/ML_ops/blob/main/nni/timeseries_transformer/capture/webui_1.png)
+    ![image](https://github.com/juniroc/ML_ops/blob/main/nni/timeseries_transformer/capture/webui_2.png)
+    ![image](https://github.com/juniroc/ML_ops/blob/main/nni/timeseries_transformer/capture/webui_3.png)    
 
 -----
 
