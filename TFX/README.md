@@ -21,7 +21,7 @@ with tf.io.TFRecordWriter("test.tfrecord") as w:
 for record in tf.data.TFRecordDataset("test.tfrecord"):
     print(record)
 ```
-![image](/uploads/556b333575d11ebf367019f791f0fcd5/image.png)
+![image](https://github.com/juniroc/ML_ops/blob/main/TFX/images/1.png)
 
 
 ### dataset for TFDV
@@ -39,7 +39,7 @@ val_df.to_csv('./val_df.csv')
 df
 
 ```
-![image](/uploads/8a54bdbc60af582f7b8d55f3a56b37f1/image.png)
+![image](https://github.com/juniroc/ML_ops/blob/main/TFX/images/2.png)
 
 ### get_statistics 
 ```
@@ -50,7 +50,7 @@ val_stats = tfdv.generate_statistics_from_csv(data_location = val_sample, delimi
 ```
 
 `train_stats`
-![image](/uploads/0322cdfeafa2108ba17d49db36f6b6c6/image.png)
+![image](https://github.com/juniroc/ML_ops/blob/main/TFX/images/3.png)
 
 ```
 train_schema = tfdv.infer_schema(train_stats)
@@ -59,8 +59,8 @@ val_schema = tfdv.infer_schema(val_stats)
 tfdv.display_schema(train_schema)
 ```
 
-![image](/uploads/5d387637753562f619443d8ef13b0a5e/image.png)
-![image](/uploads/cb4b84dce5dbfdf472220b69edce9b72/image.png)
+![image](https://github.com/juniroc/ML_ops/blob/main/TFX/images/4.png)
+![image](https://github.com/juniroc/ML_ops/blob/main/TFX/images/5.png)
 
 ### visualize_statistics
 ```
@@ -73,8 +73,8 @@ tfdv.visualize_statistics(lhs_statistics=val_stats,
 rhs_statistics=train_stats,
 lhs_name='VAL_DATASET', rhs_name='TRAIN_DATASET')
 ```
-![image](/uploads/1482d2c30271e3094414622ab6a0b6de/image.png)
-![image](/uploads/4f07152d63b0b4d86b4c945c73d05fa3/image.png)
+![image](https://github.com/juniroc/ML_ops/blob/main/TFX/images/6.png)
+![image](https://github.com/juniroc/ML_ops/blob/main/TFX/images/7.png)
 
 
 ### Anomaly check in TFDV (highlight)
@@ -86,7 +86,7 @@ anomalies = tfdv.validate_statistics(statistics=val_stats, schema=train_schema)
 
 tfdv.display_anomalies(anomalies)
 ```
-![image](/uploads/9ea6f05df2cfba4147e084f3f89e6bce/image.png)
+![image](https://github.com/juniroc/ML_ops/blob/main/TFX/images/8.png)
 
 
 ### update value in column (train_schema)
@@ -102,4 +102,31 @@ updated_anomalies = tfdv.validate_statistics(val_stats, train_schema)
 
 tfdv.display_anomalies(updated_anomalies)
 ```
-![image](/uploads/a1d7aa20571cb8881c0f952209b4424f/image.png)
+![image](https://github.com/juniroc/ML_ops/blob/main/TFX/images/9.png)
+
+
+### Drift & Skew Check
+- 각 컬럼 별로 Skew 를 확인
+- 일정 Threshold를 주어 통계값(분산 차이 L-infinity)이 threshold 보다 높을 경우 찾아냄
+```
+# skew check each column
+tfdv.get_feature(train_schema, 'ticket_fm_nonfm').skew_comparator.infinity_norm.threshold = 0.000001
+
+skew_anomalies = tfdv.validate_statistics(statistics=train_stats, schema=train_schema, serving_statistics=val_stats)
+
+tfdv.display_anomalies(skew_anomalies)
+```
+![image](https://github.com/juniroc/ML_ops/blob/main/TFX/images/10.png)
+
+
+- 컬럼 별로 drift 확인
+- 일정 threshold를 주어 통계값(분산 차이 L-infinity)이 threshold 보다 높을 경우 찾아냄
+```
+# Drift check each column
+tfdv.get_feature(train_schema, 'root_cause_sysnamea').drift_comparator.infinity_norm.threshold = 0.01
+
+drift_anomalies = tfdv.validate_statistics(statistics=train_stats, schema = train_schema, previous_statistics= val_stats)
+
+tfdv.display_anomalies(drift_anomalies)
+```
+![image](https://github.com/juniroc/ML_ops/blob/main/TFX/images/11.png)
