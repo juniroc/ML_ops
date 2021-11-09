@@ -31,7 +31,7 @@
 ---
 
 ## ETC
-* [**TFX**]
+* [**TFX**](https://github.com/juniroc/ML_ops/tree/main/TFX)
 
 ---
 
