@@ -32,6 +32,8 @@
 
 ## ETC
 * [**TFX**](https://github.com/juniroc/ML_ops/tree/main/TFX)
+* [**K8S**](https://github.com/juniroc/ML_ops/tree/main/K8S)
+
 
 ---
 
