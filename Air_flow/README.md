@@ -8,40 +8,40 @@
 `airflow webserver --port 8080\`
 
 `localhost:8080` 으로 접속
-![image](.image/image_1.png)
+![image](https://github.com/juniroc/ML_ops/blob/main/Air_flow/image/image_1.png)
 
 
 ### dag 추가하기
-![image](.image/image_2.png)
+![image](https://github.com/juniroc/ML_ops/blob/main/Air_flow/image/image_2.png)
 
 `~/airflow/` 에서 `airflow.cfg` 파일 확인
 
 - `dags_folder` 라는 것을 확인할 수 있음
-![image](.image/image_3.png)
+![image](https://github.com/juniroc/ML_ops/blob/main/Air_flow/image/image_3.png)
 
 - `dags` 디렉토리안에 파이썬 파일을 넣고 실행
-![image](.image/image_4.png)
+![image](https://github.com/juniroc/ML_ops/blob/main/Air_flow/image/image_4.png)
 
 - `airflow dags list`를 통해 dags 목록이 생성된것을 확인
-![image](.image/image_5.png)
+![image](https://github.com/juniroc/ML_ops/blob/main/Air_flow/image/image_5.png)
 
 - 그중 내가 만든 `test_1`
-![image](.image/image_6.png)
+![image](https://github.com/juniroc/ML_ops/blob/main/Air_flow/image/image_6.png)
 
 - `airflow tasks list test_1` 를 통해 생성된 dag의 tasks 리스트 출력
-![image](.image/image_7.png)
+![image](https://github.com/juniroc/ML_ops/blob/main/Air_flow/image/image_7.png)
 
 ### web UI dag 등록 확인 및 실행
 - `airflow scheduler`를 이용해 등록 확인
-![image](.image/image_8.png)
+![image](https://github.com/juniroc/ML_ops/blob/main/Air_flow/image/image_8.png)
 
 그리고 만약 `Not yet start` 인 상태로 멈춰있으면
 
 `airflow scheduler` 명령어 입력해주면됨
-![image](.image/image_9.png)
+![image](https://github.com/juniroc/ML_ops/blob/main/Air_flow/image/image_9.png)
 
 잘 작동함을 확인할 수 있음
-![image](.image/image_10.png)
+![image](https://github.com/juniroc/ML_ops/blob/main/Air_flow/image/image_10.png)
 
 
 ### airflow_2 version 
@@ -196,17 +196,17 @@ tutorial_etl_dag = taskflow_extract_ppr_infer()
 ```
 
 아래와 같이 실험 과정 성공 및 실패 여부를 알 수 있음 
-![image](.image/image_11.png)
+![image](https://github.com/juniroc/ML_ops/blob/main/Air_flow/image/image_11.png)
 
 - 정상적으로 돌아갔을 경우 결과
-![image](.image/image_12.png)
+![image](https://github.com/juniroc/ML_ops/blob/main/Air_flow/image/image_12.png)
 
 
 ### schedule 변수 설정
 - `schedule_interval` 분단위 시단위 일 주 월 단위로 지정할 수 있으며, 초단위로도 가능
 - `start_data` 를 통해 (처리할 데이터의) 시작 날짜를 지정할 수 있음 
 - `tag` 를 통해 실험 구분 가능 및 버져닝
-![image](.image/image_13.png)
+![image](https://github.com/juniroc/ML_ops/blob/main/Air_flow/image/image_13.png)
 
 ### 최종 결과 확인
-![image](.image/image_14.png)
+![image](https://github.com/juniroc/ML_ops/blob/main/Air_flow/image/image_14.png)
