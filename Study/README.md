@@ -1,19 +1,19 @@
 # MLOps
 
-[Inflearn_MLOps](https://www.notion.so/Inflearn_MLOps-4e2b5ebdd8974aa8993e65f133b8bc8d)
+[Inflearn_MLOps](MLOps%209c0d6/Inflearn_M%204e2b5.md)
 
-[ML_Ops : Coursera](https://www.notion.so/ML_Ops-Coursera-56b055f13ff247009b6e2e466761c68e)
+[ML_Ops : Coursera](MLOps%209c0d6/ML_Ops%20Cou%2056b05.md)
 
-[MLOps_Seminar 210605](https://www.notion.so/MLOps_Seminar-210605-1105623ca28c4fe5858563fbd7d56565)
+[MLOps_Seminar 210605](MLOps%209c0d6/MLOps_Semi%2011056.md)
 
-[Auto-ML](https://www.notion.so/Auto-ML-130e9eaa5f88417099f570bd2615eda2)
+[Auto-ML](MLOps%209c0d6/Auto-ML%20130e9.md)
 
-[ML_system_design_pattern](https://www.notion.so/ML_system_design_pattern-46645e5b30554b32a521eb02229fd982)
+[ML_system_design_pattern](MLOps%209c0d6/ML_system_%2046645.md)
 
-[BentoML - by. Line 이웅규님](https://www.notion.so/BentoML-by-Line-642b910f819a46cda56151ff0dd83097)
+[BentoML - by. Line 이웅규님](MLOps%209c0d6/BentoML%20-%20%20642b9.md)
 
-[Data Seminar : 데이터야 놀자](https://www.notion.so/Data-Seminar-2f3a563ad63c498586b38bf30c8089d2)
+[Data Seminar : 데이터야 놀자](MLOps%209c0d6/Data%20Semin%202f3a5.md)
 
-[ML System Design Pattern (writing)](https://www.notion.so/ML-System-Design-Pattern-writing-d8b4a51054144caab4db206a2d19c455)
+[ML System Design Pattern (writing)](MLOps%209c0d6/ML%20System%20%20d8b4a.md)
 
-[FastCampus - MLOps](https://www.notion.so/FastCampus-MLOps-828882675c1e4d3cbc289aa3d8f947b1)
+[FastCampus - MLOps](MLOps%209c0d6/FastCampus%2082888.md)
