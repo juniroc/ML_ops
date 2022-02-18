@@ -1,5 +1,10 @@
 # AI_OPs
 
+## Studies
+* [**Studies**](https://github.com/juniroc/ML_ops/tree/main/Study)
+
+---
+
 ## model_serving
 * [**Flask**](https://github.com/juniroc/ML_ops/tree/main/model_serving_using_flask)
 
