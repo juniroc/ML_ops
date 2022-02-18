@@ -1,0 +1,356 @@
+﻿제목,URL,다시 읽기,메모,분류
+Feature Engineering 기본 정리,http://hero4earth.com/blog/learning/2018/01/29/Feature_Engineering_Basic/,Yes,,Data Preprocessing
+성능 향상을 위한 SQL 작성법,https://d2.naver.com/helloworld/1155,Yes,SQL Index에 대한 자료,ing
+16 metrics network effects/,https://a16z.com/2018/12/13/16-metrics-network-effects/,Yes,네트워크 이펙트가 있는 비즈니스를 측정하는 16가지 항목,Data Analysis
+나만의 파이썬 패키지 만들기,https://code.tutsplus.com/ko/tutorials/how-to-write-your-own-python-packages--cms-26076,Yes,,Python
+자연어처리 Gitbook,https://kh-kim.gitbook.io/natural-language-processing-with-pytorch,No,김기현님의 Gitbook,NLP
+함수형 프로그래밍(하스켈),https://www.youtube.com/watch?v=qGaTueucw0g&feature=share,Yes,,Functional Programming
+Kafka’s Streams + ML/DL,https://www.youtube.com/watch?v=-q7CyIExBKM,Yes,카프카를 사용한 실시간 데이터 파이프라인,Data Engineering
+Kafka + Tensorflow,https://www.slideshare.net/KaiWaehner/unleashing-apache-kafka-and-tensorflow-in-the-cloud-108325306,Yes,,Data Engineering
+MLOps,https://github.com/EthicalML/awesome-machine-learning-operations,Yes,,Data Engineering
+Serving,https://yjucho1.github.io/tensorflow/tensorflow-serving/,Yes,,Serving
+Pandas 1.0 변화 번역,https://medium.com/@initialkommit/%EB%B2%88%EC%97%AD-towards-pandas-1-0-865296b65a5,Yes,,Python
+"Luigi ",https://labs.getninjas.com.br/using-luigi-to-create-and-monitor-pipelines-of-batch-jobs-eb8b3cd2a574,Yes,https://medium.com/@initialkommit/batch-job-%ED%8C%8C%EC%9D%B4%ED%94%84%EB%9D%BC%EC%9D%B8%EC%9D%84-%EB%A7%8C%EB%93%A4%EA%B3%A0-%EB%AA%A8%EB%8B%88%ED%84%B0%EB%A5%BC-%EC%9C%84%ED%95%9C-luigi-eaa6c399a24c,Data Engineering
+Netflix 데이터 엔지니어,https://www.dataengineeringpodcast.com/using-notebooks-as-the-unifying-layer-for-data-roles-at-netflix-with-matthew-seal-episode-54/,Yes,,Interview
+Data Engineering with test,https://medium.com/@josh.temple/automated-testing-in-the-modern-data-warehouse-d5a251a866af,Yes,,Data Engineering
+Pandas 1.0 jupyter notebook,http://nbviewer.jupyter.org/github/datapythonista/towards_pandas_1/blob/master/Towards%20pandas%201.0%20Executed.ipynb,Yes,,Python
+Data engineer potcast,https://www.dataengineeringpodcast.com/,No,,Data Engineering
+파이썬 argparse,https://sjquant.github.io/파이썬으로-만드는-커맨드라인-프로그램-1/,Yes,,Python
+결제 시스템을 구축하며 배운 분산 아키텍쳐,https://blog.pragmaticengineer.com/distributed-architecture-concepts-i-have-learned-while-building-payments-systems/,No,,Data Engineering
+넷플릭스에서 Jupyter 사용,https://medium.com/netflix-techblog/notebook-innovation-591ee3221233,Yes,,"Data Analysis, Data Engineering"
+Face ID 구현,https://towardsdatascience.com/how-i-implemented-iphone-xs-faceid-using-deep-learning-in-python-d5dbaa128e1d,Yes,,Deeplearning
+Hashing 샘플링,https://medium.com/simpl-under-the-hood/deterministic-a-b-tests-via-the-hashing-trick-d1ea49483202,Yes,,Data Analysis
+머신러닝 적용의 실체 (하용호님),https://brunch.co.kr/@kakao-it/104,No,역시 멋진 용호님,Deeplearning
+https://wizardforcel.gitbooks.io/sicp-in-python/icp python,https://wizardforcel.gitbooks.io/sicp-in-python/,No,함수형 프로그래밍,Python
+"Model Evaluation, Model Selection, and Algorithm Selection in ML",https://arxiv.org/pdf/1811.12808.pdf,Yes,,Machine Learning
+Deploying Machine Learning Models to Production,https://www.slideshare.net/AnassBensrhirDatasci/deploying-machine-learning-models-to-production,Yes,,MLOps
+Python Fire,https://github.com/google/python-fire,Yes,Python CLI 만들 때 용이. Argparse의 대항마랄까,Python
+FBLearner,https://code.fb.com/ml-applications/introducing-fblearner-flow-facebook-s-ai-backbone/,No,,MLOps
+Terraform 튜토리얼,https://www.44bits.io/ko/post/terraform_introduction_infrastrucute_as_code,Yes,,Infra
+알파스타,https://deepmind.com/blog/alphastar-mastering-real-time-strategy-game-starcraft-ii/,No,,Reinforcement Learning
+Pytorch Serving,https://dreamgonfly.github.io/2018/01/19/pytorch-on-aws-lambda.html,Yes,,MLOps
+Latex 수식,https://ko.wikipedia.org/wiki/%EC%9C%84%ED%82%A4%EB%B0%B1%EA%B3%BC:TeX_%EB%AC%B8%EB%B2%95,No,,Latex
+PyQT 강의,https://opentutorials.org/module/544,No,,Python
+Test 프레임워크 정리,https://python-guide-kr.readthedocs.io/ko/latest/writing/tests.html,Yes,,Python
+"SHAP, LIME(1)",https://blog.dominodatalab.com/shap-lime-python-libraries-part-1-great-explainers-pros-cons/,Yes,,MLOps
+MLOPS,https://blog.dominodatalab.com/shap-lime-python-libraries-part-2-using-shap-lime/,Yes,,MLOps
+Plotly Tutorial,https://www.kaggle.com/arthurtok/interactive-porto-insights-a-plot-ly-tutorial,Yes,,Data Visualization
+Custom loss function in gb,https://towardsdatascience.com/custom-loss-functions-for-gradient-boosting-f79c1b40466d,Yes,,Machine Learning
+gin-config,https://github.com/google/gin-config,Yes,Gin provides a lightweight configuration framework for Python,MLOps
+Artemis,https://github.com/QUVA-Lab/artemis,No,"Artemis aims to get rid of all the boring, bureaucratic coding (plotting, file management, organizing experiments, etc) involved in machine learning projects, so you can get to the good stuff quickly.",MLOps
+https://github.com/IDSIA/sacredacred,https://github.com/IDSIA/sacred,Yes,"Sacred is a tool to help you configure, organize, log and reproduce experiments developed at IDSIA.",MLOps
+Rules of Machine Learning: Best Practices for ML Engineering,http://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf,Yes,,MLOps
+Python Decorator,http://schoolofweb.net/blog/posts/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4%ED%84%B0-decorator/,Yes,,Python
+개발 전반 노트,https://wikidocs.net/book/2184,No,,Development
+Interpretable ml book,https://christophm.github.io/interpretable-ml-book/,No,,Machine Learning
+인공신경망 학습 레시피,https://medium.com/@bntejn/%EC%9D%B8%EA%B3%B5%EC%8B%A0%EA%B2%BD%EB%A7%9D-%ED%95%99%EC%8A%B5-%EB%A0%88%EC%8B%9C%ED%94%BC-%EB%B2%88%EC%97%AD-70c5e58341ec,Yes,Karpathy님의 글 번역본,Machine Learning
+게임 디렉팅 가이드,https://www.slideshare.net/iyooha/ss-69350767,Yes,,Leadership
+gRPC,https://medium.com/@goinhacker/microservices-with-grpc-d504133d191d,Yes,,Development
+시스템 모델링 시뮬레이션 입문,https://kooc.kaist.ac.kr/isms1/,Yes,,Simulation
+Causal Inference(데이터 → 인과관계),https://www.slideshare.net/lumiamitie/causal-inference-primer-20190601,Yes,,Causal Inference
+Deep Reinforcement Learning with Applications in Transportation,https://outreach.didichuxing.com/tutorial/AAAI2019/,No,,Reinforcement Learning
+Kubeflow + TFX + Airflow,https://www.youtube.com/watch?v=OhIa2cnGD8Y,No,,MLOps
+생존분석 개요,https://statkclee.github.io/ml/ml-pm-survival.html,No,,Survival Analysis
+NDC 실전 이탈 예측과 유의사항,https://www.youtube.com/watch?v=kcE_1n41xdk,No,,Survival Analysis
+빅콘테스트 블소 1등 회사,https://www.yokozunadata.com/research/,No,,Survival Analysis
+하이퍼커넥트의 자동 광고 측정 서비스 구현하기(LTV 이야기 나옴),https://www.slideshare.net/ssuseraefa0b/pycon-korea-2018-110378569,Yes,,Survival Analysis
+NCSOFT 다니시는 분의 “실전 이탈 예측 모델링을 위한 세 가지 고려 사항,https://brunch.co.kr/@gimmesilver/54,Yes,,Survival Analysis
+박장시님의 이탈 예측하기,https://boxnwhis.kr/2015/02/09/predict_churns.html,Yes,,Survival Analysis
+Label Encoding vs One Hot Encoding(Kaggle),https://www.kaggle.com/c/ieee-fraud-detection/discussion/102147,Yes,,Machine Learning
+Categorical Features and Encoding in Decision Trees,https://medium.com/data-design/visiting-categorical-features-and-encoding-in-decision-trees-53400fa65931,No,,Machine Learning
+Dash,https://github.com/plotly/dash,No,,Data Visualization
+MLOps Pipeline using Google Cloud Composer,http://blog.zenof.ai/machine-learning-operations-mlops-pipeline-using-google-cloud-composer/,No,,MLOps
+grpc를 사용한 serving,https://blog.goodaudience.com/ml-client-server-using-grpc-in-python-3cba7693d1f5,No,,MLOps
+machine-learning-microservice-python,https://github.com/yu-iskw/machine-learning-microservice-python,No,,MLOps
+Early Return Style,http://mkseo.pe.kr/blog/?p=2631,No,,Python
+How to load geographic data like shapefiles into BigQuery,https://medium.com/google-cloud/how-to-load-geographic-data-like-zipcode-boundaries-into-bigquery-25e4be4391c8,Yes,,"BigQuery, Data Visualization"
+How to create and deploy a Kubeflow Machine Learning Pipeline (Part 1),https://towardsdatascience.com/how-to-create-and-deploy-a-kubeflow-machine-learning-pipeline-part-1-efea7a4b650f,No,,MLOps
+Kubeflow v0.5 simplifies model development with enhanced UI and Fairing library,https://medium.com/kubeflow/kubeflow-v0-5-simplifies-model-development-with-enhanced-ui-and-fairing-library-78e19cdc9f50,No,,MLOps
+Introduction to Operation Research,http://www.cs.toronto.edu/~stacho/public/IEOR4004-notes1.pdf,No,,Operation Research
+Multi-Class Imbalance,https://towardsdatascience.com/multi-class-imbalance-154ef2b15816,No,,Machine Learning
+Time-Series Anomaly Detection Service at Microsoft,https://arxiv.org/pdf/1906.03821v1.pdf,No,,"Anomaly Detection, Time Series"
+"주니어, 미드레벨과 시니어 개발자의 차이점",https://medium.com/@erwinousy/%EC%A3%BC%EB%8B%88%EC%96%B4-%EB%AF%B8%EB%93%9C%EB%A0%88%EB%B2%A8%EA%B3%BC-%EC%8B%9C%EB%8B%88%EC%96%B4-%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%9D%98-%EC%B0%A8%EC%9D%B4%EC%A0%90-d29bffecfec,Yes,,Development
+추천시스템 이제는 돈이 되어야 한다,https://www.slideshare.net/ssuser2fe594/ss-164511610,Yes,,Recommendation
+Graph Analytics,https://towardsdatascience.com/graph-analytics-introduction-and-concepts-of-centrality-8f5543b55de3,No,,Graph
+Time Series of Price Anomaly Detection,https://towardsdatascience.com/time-series-of-price-anomaly-detection-13586cd5ff46,No,,Anomaly Detection
+Anomaly detection: A survey,https://www.vs.inf.ethz.ch/edu/HS2011/CPS/papers/chandola09_anomaly-detection-survey.pdf,No,,Anomaly Detection
+Machine Learning Code 조각,https://github.com/susanli2016/Machine-Learning-with-Python,No,,Machine Learning
+From Exploration to Production — Bridging the Deployment Gap for Deep Learning (Part 1),https://towardsdatascience.com/from-exploration-to-production-bridging-the-deployment-gap-for-deep-learning-8b59a5e1c819,No,,Deeplearning
+ML Client/Server Using gRPC in Python,https://blog.goodaudience.com/ml-client-server-using-grpc-in-python-3cba7693d1f5,No,,"Development, MLOps"
+TF Serving -Auto Wrap your TF or Keras model & Deploy it with a production-grade GRPC Interface,https://towardsdatascience.com/using-tensorflow-serving-grpc-38a722451064,Yes,,MLOps
+BigQuery GIS - A GeoVisual Exploration (Cloud Next '19),https://www.youtube.com/watch?v=Q6BzuIgGnfA,Yes,,BigQuery
+AutoGIS,https://automating-gis-processes.github.io/2018/index.html,No,,gis
+Deploy your PyTorch model to Production,https://medium.com/datadriveninvestor/deploy-your-pytorch-model-to-production-f69460192217,No,,Serving
+pytorch 공식 홈페이지(rest api),https://tutorials.pytorch.kr/intermediate/flask_rest_api_tutorial.html#inference,No,,Serving
+Deep-Learning-in-Production,https://github.com/ahkarami/Deep-Learning-in-Production,No,,Serving
+probabilistic-graphical-models,https://www.coursera.org/learn/probabilistic-graphical-models,No,그래프 모델도 다시.. 꼭!,Graph
+Mean (likelihood) encodings: a comprehensive study,https://www.kaggle.com/vprokopev/mean-likelihood-encodings-a-comprehensive-study,No,,Machine Learning
+h3 visualize,https://nbviewer.jupyter.org/github/uber/h3-py-notebooks/blob/master/H3%20API%20examples%20on%20Urban%20Analytics.ipynb,Yes,H3 시각화..!,Data Visualization
+좋은 팀장에겐 이 세 가지가 있더라,https://brunch.co.kr/@poisson-tr/30,Yes,좋은 팀장이 됩시다. 어느정도 하고 있지만 여기 나오지 않은 것들 +@ 진행해야지,Leadership
+Multithreaded predictions with TensorFlow Estimators,https://medium.com/element-ai-research-lab/multithreaded-predictions-with-tensorflow-estimators-eb041861da07,Yes,멀티쓰레딩이 중요합니다 총총,Deeplearning
+버클리 Machine Learning Systems (Fall 2019),https://ucbrise.github.io/cs294-ai-sys-fa19/,Yes,버클리 정말 좋은 것 같음. 유학 뽐뿌 +1,MLOps
+Optimizing Station-based Bike Sharing Systems,https://edenau.github.io/bike-sharing/,No,최적화 좋은 Reference 자료,Operation Research
+VRP Pcikup Delivery Problem,https://github.com/pgRouting/pgrouting/wiki/VRP-Pickup-Delivery-Problem,No,,Operation Research
+Testing your machine learning (ML) pipelines,https://intothedepthsofdataengineering.wordpress.com/2019/07/18/testing-your-machine-learning-ml-pipelines/,No,,MLOps
+Julia Book,https://benlauwens.github.io/ThinkJulia.jl/latest/book.html,No,,Julia
+plotly.express,https://www.kaggle.com/subinium/road-to-viz-expert-3-geo-with-plotly-express,No,Plotly express 정말 좋은..! 수빈님 자료 짱짱,Data Visualization
+Julia Learning,https://julialang.org/learning/,No,Julia를 어떻게 배울 수 있는지 나온 부분,Julia
+Causal Inference Book,https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/,No,"우연히 발견했는데, 꽤 괜찮은 책-! 나중에 조금씩 보면 좋을 것 같음",Causal Inference
+BigQuery 비용 최적화,https://cloud.google.com/blog/products/data-analytics/cost-optimization-best-practices-for-bigquery,No,알뜰하게 잘 쓰기 위해 알면 좋은 내용,BigQuery
+Algorithms For Optimization,https://mitpress.mit.edu/books/algorithms-optimization,No,"최적화 문제를 다룬 책인데, Julia로 진행되서 더 좋음","Julia, Operation Research"
+VS CODE를 웹 상에 띄워놓고 어디서든 코딩하기,https://eungbean.github.io/2019/11/04/remote-vscode/,No,"VS code 띄워서 하는건 예전에 실습하며 해봤는데, 신기했음..! Try",Development
+Cloud Function을 AI Platform에 올리기,https://cloud.google.com/blog/products/ai-machine-learning/empower-your-ai-platform-trained-serverless-endpoints-with-machine-learning-on-google-cloud-functions,No,,"Google Cloud Platform, MLOps"
+ML on GCP,https://github.com/GoogleCloudPlatform/ml-on-gcp,No,,"Google Cloud Platform, MLOps"
+QGIS Cookbook(한글판),https://drive.google.com/file/d/1_v1KiMk8SWiavp7kcj1pq26uGlTxUzWU/view,No,,QGIS
+MSA에서 여러 API 호출로 응답시간 줄이기,https://www.popit.kr/msa에서-동시에-여러-api-호출로-응답-시간-줄이기/,No,,Development
+AI 연구자를 위한 클린코드,https://www.slideshare.net/KennethCeyer/ai-gdg-devfest-seoul-2019-187630418,No,,Development
+CS246: Mining Massive Data Sets,https://web.stanford.edu/class/cs246/,No,,Large Data
+What-If Tool,https://arxiv.org/pdf/1907.04135.pdf,No,,Data Visualization
+NGBoost,https://arxiv.org/abs/1910.03225,No,,Machine Learning
+Developing real-time ML system with Apache Kafka (ko),https://speakerdeck.com/dongjin/developing-real-time-ml-system-with-apache-kafka-ko?slide=25,No,,MLOps
+Pandas Bokeh,https://github.com/PatrikHlobil/Pandas-Bokeh,No,,Data Visualization
+What if Tool,https://github.com/PAIR-code/what-if-tool,No,,MLOps
+service-streamer,https://github.com/ShannonAI/service-streamer,No,,MLOps
+pydeck,https://dailyheumsi.tistory.com/147?category=854906,No,,Data Visualization
+MAPE가 좋을까?,https://stats.stackexchange.com/questions/280464/is-mape-a-good-error-measurement-statistic-and-what-alternatives-are-there,No,,Machine Learning
+서버리스를 활용한 분산 처리,https://www.slideshare.net/MinJunKim5/masocon-2019-serverless-kimminjun,No,,Data Engineering
+dgl,https://github.com/dmlc/dgl,No,,Graph
+Airflow Example,https://github.com/gtoonstra/etl-with-airflow,No,,Data Engineering
+Explainable AI,https://storage.googleapis.com/cloud-ai-whitepapers/AI%20Explainability%20Whitepaper.pdf,No,,MLOps
+이상엽Math 유튜브,https://www.youtube.com/channel/UC-7H7ZImLfGF97Y_EJ0vZzA,No,,Math
+Networks books,http://www.cs.cornell.edu/home/kleinber/networks-book/,No,,Graph
+CS224w(ML with Graph),http://web.stanford.edu/class/cs224w/,No,,Graph
+류성옥님 추천 Robust Optimization 자료,,No,,Robust Optimization
+alibi-detect,https://docs.seldon.io/projects/alibi-detect/en/stable/overview/getting_started.html,No,"alibi-detect, seldon과 잘 합쳐진다고 함","MLOps, Serving"
+Production Level Deep Learning,https://github.com/alirezadir/Production-Level-Deep-Learning,No,,MLOps
+THE 7 QUESTIONS YOU NEED TO ASK TO OPERATE DEEP LEARNING INFRASTRUCTURE AT SCALE,https://jameskle.com/writes/deep-learning-infrastructure-tooling,No,,MLOps
+GNN Paper,https://github.com/thunlp/GNNPapers,No,,Graph
+Awesome Graph Classification,https://github.com/benedekrozemberczki/awesome-graph-classification,No,,Graph
+"Robust Optimization, Distributional Robustness, and their Statistical Friends",https://ima.umn.edu/materials/2018-2019/W6.18-21.19/27931/ima-2019-workshop.pdf,No,,Robust Optimization
+"Machine Learning and Robust Optimization, Fengqi You, Cornell University 강의",https://www.youtube.com/watch?v=7eQpuBVeCiQ,No,,Robust Optimization
+"ipywidget - tab, button",https://medium.com/@jdchipox/how-to-interact-with-jupyter-33a98686f24e,No,,"Data Analysis, Python"
+JuMPer - Julia Robust Optimization,https://github.com/IainNZ/JuMPeR.jl,No,,"Julia, Robust Optimization"
+Robust Optimization EV Charging,https://github.com/nkorolko/Robust_Optimization_EV_Charging,No,,"Julia, Robust Optimization"
+How to get started with machine learning on graphs,https://medium.com/octavian-ai/how-to-get-started-with-machine-learning-on-graphs-7f0795c83763,No,,Graph
+Advent of code: SQL + BigQuery,https://towardsdatascience.com/advent-of-code-sql-bigquery-31e6a04964d4,No,,BigQuery
+Distribution Explorer,http://bois.caltech.edu/distribution_explorer/index.html,No,,"Data Visualization, Distribution"
+Assigning Fastest Pick-Ups to Uber Drivers with Linear Programming,https://towardsdatascience.com/assigning-fastest-pick-ups-to-uber-drivers-with-linear-programming-8f8bd3c44c9a,No,,Optimization
+AzureML,https://drive.google.com/file/d/13PeCaO7iu5Aeun1Irk_lGtDH920ask2L/view,No,,Machine Learning
+좋은 부사수란?,https://brunch.co.kr/@brandbooster/58,No,,성장
+parmap을 활용한 멀티프로세싱,https://dailyheumsi.tistory.com/105,No,,Development
+Detecting outliers using the Mahalanobis distance with PCA in Python,https://nirpyresearch.com/detecting-outliers-using-mahalanobis-distance-pca-python/,No,,Anomaly Detection
+CEO를 위한 운영 및 내부 커뮤니케이션 전략,https://news.hada.io/topic?id=1156,No,,Communication
+Partition on any field with BigQuery,https://medium.com/google-cloud/partition-on-any-field-with-bigquery-840f8aa1aaab,No,,BigQuery
+"Airflow: Lesser Known Tips, Tricks, and Best Practises",https://medium.com/datareply/airflow-lesser-known-tips-tricks-and-best-practises-cf4d4a90f8f,No,,"Data Engineering, MLOps"
+JuliaOpt - Solving Sudoku,http://www.juliaopt.org/notebooks/JuMP-Sudoku.html,No,,"Julia, Optimization"
+Airflow에서 Jupyter Notebook 실행(Papermill),https://airflow.readthedocs.io/en/latest/howto/operator/papermill.html,No,,"Data Engineering, MLOps"
+voila(Jupyter Notebook to Web Application),https://github.com/voila-dashboards/voila,No,,Data Visualization
+Pandas profiling,https://github.com/pandas-profiling/pandas-profiling,No,Create HTML profiling reports from pandas DataFrame objects,MLOps
+OAuth + JupyterHub Authenticator = OAuthenticator,https://github.com/jupyterhub/oauthenticator,No,,MLOps
+Pandas Dataframe 이쁘게 만들기,https://towardsdatascience.com/style-pandas-dataframe-like-a-master-6b02bf6468b0,No,,Data Visualization
+papermill(Notebook 실행),https://github.com/nteract/papermill,No,,MLOps
+Airflow Contents,https://github.com/jghoman/awesome-apache-airflow,No,,"Data Engineering, MLOps"
+Lyft의 Airflow 활용,https://www.slideshare.net/taofung/airflow-at-lyft,No,,"Data Engineering, MLOps"
+What's coming in Apache Airflow 2.0,https://www.youtube.com/watch?v=p6d3tr02exQ&feature=youtu.be,No,,"Data Engineering, MLOps"
+팀장인듯 팀장아닌 팀장같은 너 브런치북,https://brunch.co.kr/brunchbook/bethezzang,No,,Leadership
+Keep Your Dockerfile Clean,https://medium.com/better-programming/keep-your-dockerfile-clean-5e4df1c7d909,No,,"Development, Docker"
+manifold,https://github.com/uber/manifold,No,,"Data Visualization, MLOps"
+Feature Stores: Components of a Data Science Factory,https://towardsdatascience.com/feature-stores-components-of-a-data-science-factory-f0f1f73d39b8,No,,MLOps
+Feast - Feature Store for Machine Learning,https://github.com/gojek/feast,No,,MLOps
+autogluon,https://autogluon.mxnet.io/,No,,"AutoML, MLOps"
+Fall 2019 Urban Transport & Logistics Systems Project Exhibit,https://www.linkedin.com/pulse/fall-2019-urban-transport-logistics-systems-project-exhibit-chow/,No,,Transportation
+"Airflow about subDAGs, branching and xcom","https://github.com/geosolutions-it/evo-odas/wiki/Airflow---about-subDAGs,-branching-and-xcom",No,,"Data Engineering, MLOps"
+wandb,https://docs.wandb.com/,No,,MLOps
+"A/B 테스트를 적용하기 어려울 때, 이벤트 효과 추정하기",https://www.slideshare.net/lumiamitie/ab-20200118-224983073,No,,Data Analysis
+딥 러닝을 이용한 자연어 처리 입문,https://wikidocs.net/book/2155,No,,NLP
+수아랩 anomaly detection,http://research.sualab.com/introduction/review/2020/01/30/anomaly-detection-overview-1.html,No,,Anomaly Detection
+Data-Pipelines-with-Apache-Airflow,https://github.com/shravan-kuchkula/Data-Pipelines-with-Apache-Airflow,No,,"Data Engineering, MLOps"
+핑퐁팀의 Python 문화 구축기,https://blog.pingpong.us/python-in-pingpong/,No,,Python
+Building AI Solutions with Google OR-Tools,https://www.youtube.com/watch?v=zZAobExOMB0,No,,Optimization
+Operation Research with Python,https://github.com/TeamLab/Gachon_CS50_OR_KMOOC,No,,Operation Research
+조직의 리더가 참고하면 좋은 책 추천(11권),https://outstanding.kr/leaderbook20180913/,No,,Leadership
+TFX Airflow Tutorial,https://www.tensorflow.org/tfx/tutorials/tfx/airflow_workshop,No,,MLOps
+Awesome Software Engineering for Machine Learning,https://github.com/SE-ML/awesome-seml,No,,MLOps
+"Scalable Deep Learning on Distributed Infrastructures: Challenges, Techniques and Tools",https://arxiv.org/pdf/1903.11314.pdf,No,,MLOps
+패스트캠퍼스 시계열 강의 자료,https://github.com/cheonbi/TimeSeriesAnalysis,No,,Time Series
+Cloud Dataflow 파이프라인의 예측 머신러닝 모델 비교,https://cloud.google.com/solutions/comparing-ml-model-predictions-using-cloud-dataflow-pipelines?hl=ko,No,,MLOps
+"TFX, Kubeflow 파이프 라인 및 클라우드 빌드를 사용하는 MLOps 아키텍처",https://cloud.google.com/solutions/machine-learning/architecture-for-mlops-using-tfx-kubeflow-pipelines-and-cloud-build,No,,MLOps
+Kubeflow – TensorFlow 학습하기,https://www.kangwoo.kr/2020/03/12/kubeflow-tensorflow-%ED%95%99%EC%8A%B5%ED%95%98%EA%B8%B0/,No,,MLOps
+Ask Me Anything session with a Kaggle Grandmaster Vladimir I. Iglovikov,https://towardsdatascience.com/ask-me-anything-session-with-a-kaggle-grandmaster-vladimir-i-iglovikov-942ad6a06acd,No,,Interview
+Why is it always HASH( salt + password ) that we recommend?,https://security.stackexchange.com/questions/4574/why-is-it-always-hash-salt-password-that-we-recommend,No,,Data Analysis
+15 Best Tools for Tracking Machine Learning Experiments,https://neptune.ai/blog/best-ml-experiment-tracking-tools,No,,MLOps
+Ask Me Anything session with a Kaggle Grandmaster Vladimir I. Iglovikov,https://towardsdatascience.com/ask-me-anything-session-with-a-kaggle-grandmaster-vladimir-i-iglovikov-942ad6a06acd,No,,Interview
+Scalable Machine Learning (Part 2): Partial Fit,https://tomaugspurger.github.io/scalable-ml-02,No,,Machine Learning
+guild ai,https://github.com/guildai/guildai,No,,MLOps
+optuna vs hyperopt,https://neptune.ai/blog/optuna-vs-hyperopt,No,,MLOps
+mediapipe - opencv 대항마,https://github.com/google/mediapipe,No,,Deeplearning
+Statistical test Cheat Sheet,https://dacg.in/2018/11/17/statistical-test-cheat-sheet/,No,,"Math, Statistics"
+Scrapy 관련 블로그 글,https://heodolf.tistory.com/5,No,,Development
+How Not To Run an A/B Test,https://www.evanmiller.org/how-not-to-run-an-ab-test.html,No,,Statistics
+MLOps Reference,https://github.com/visenger/mlops-references,No,,MLOps
+setup vs requirement,https://jadehan.tistory.com/42,No,,Development
+카카오 페이지 Airflow,https://mk.kakaocdn.net/dn/if-kakao/conf2019/%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C_2019/T03-S04.pdf,No,,Data Engineering
+AI Platform용 AI Explanations 소개,https://cloud.google.com/ai-platform/prediction/docs/ai-explanations/overview,No,,MLOps
+ML Engineering on Google Cloud Platform,https://github.com/GoogleCloudPlatform/mlops-on-gcp,No,,MLOps
+PyQT5,https://wikidocs.net/book/2944,No,,Python
+Slach slash command,https://jusths.tistory.com/136,No,,Development
+빠르고 정확하게 답변을 받을 수 있는 질문하는 법,https://blog.2dal.com/2020/04/01/%EB%B9%A0%EB%A5%B4%EA%B3%A0-%EC%A0%95%ED%99%95%ED%95%98%EA%B2%8C-%EB%8B%B5%EB%B3%80%EC%9D%84-%EB%B0%9B%EC%9D%84-%EC%88%98-%EC%9E%88%EB%8A%94-%EC%A7%88%EB%AC%B8%ED%95%98%EB%8A%94-%EB%B2%95/,No,,문화
+BigGraph,https://github.com/facebookresearch/PyTorch-BigGraph,No,,Graph
+"최적화, 그래프 자료를 꾸준히 올려주심",https://frhyme.github.io/,No,,블로그 추천
+비모수 통계학,http://kocw.net/home/search/kemView.do?kemId=1286877,No,,Statistics
+Implementing the Clean Architecture in Python,https://leanpub.com/implementing-the-clean-architecture,No,,Development
+torch serve,https://aws.amazon.com/blogs/machine-learning/deploying-pytorch-models-for-inference-at-scale-using-torchserve/,No,,MLOps
+cortex,https://github.com/cortexproject/cortex,No,,MLOps
+df-ml-anomaly-detection,https://github.com/GoogleCloudPlatform/df-ml-anomaly-detection,No,,Machine Learning
+Bayesian Deep Learning and a Probabilistic Perspective of Generalization,https://arxiv.org/pdf/2002.08791.pdf,No,,Bayesian
+ml-design-patterns,https://github.com/GoogleCloudPlatform/ml-design-patterns,No,,MLOps
+imgaug,https://github.com/aleju/imgaug,No,Image augmentation for machine learning experiments,Deeplearning
+ml system design pattern,https://github.com/mercari/ml-system-design-pattern,No,,MLOps
+autoEDA-resources,https://github.com/mstaniak/autoEDA-resources,No,,"Data Visualization, DataOps, MLOps"
+Bayesian Data Analysis,https://www.amazon.com/Bayesian-Analysis-Chapman-Statistical-Science-ebook/,No,,"Bayesian, Data Analysis"
+Statistical Rethinking: A Bayesian Course with Examples in R and STAN,https://www.amazon.com/Statistical-Rethinking-Bayesian-Examples-Chapman-ebook/,No,,"Bayesian, Data Analysis, Statistics"
+ml rest,https://github.com/apinf/ml-rest,No,,MLOps
+awesome-scalability,https://github.com/binhnguyennus/awesome-scalability,No,,Development
+Dockerfile Best Practices,https://docs.docker.com/develop/develop-images/dockerfile_best-practices/,No,,"Development, MLOps"
+Machine Learning Observability,https://medium.com/databand-ai/machine-learning-observability-641e65dc3ab7,No,,MLOps
+Databand - dbnd,https://github.com/databand-ai/dbnd,No,,"Data Engineering, MLOps"
+Jupyterhub 서버 체크,https://github.com/jupyterhub/jupyterhub/blob/master/examples/cull-idle/cull_idle_servers.py,No,,"DataOps, Development, MLOps"
+pachyderm,https://github.com/pachyderm/pachyderm,No,,MLOps
+Reproducibility in Machine Learning,https://fecht.io/posts/2019/reproducibility-in-ml/,No,,MLOps
+pycaret,https://github.com/pycaret/pycaret,No,,MLOps
+Open Platform for AI (OpenPAI),https://github.com/Microsoft/pai,No,,MLOps
+Damaged car estimation model,https://forums.fast.ai/t/damaged-car-estimation-model/19215,No,,Deeplearning
+아직도 파이썬으로만 머신 러닝 하니? 난 SQL로 바로 쓴다!,https://master.d1ves3j69xoriy.amplifyapp.com/,No,,"AWS, Machine Learning"
+"TFX, Kubeflow 파이프라인, Cloud Build를 사용하는 MLOps 아키텍처",https://cloud.google.com/solutions/machine-learning/architecture-for-mlops-using-tfx-kubeflow-pipelines-and-cloud-build?hl=ko,No,,MLOps
+Building a feature platform to scale machine learning(GoJek),https://info.dataengconf.com/hubfs/bcn18-talks/Willem%20Pienaar%20-%20Feature%20Platform.pdf,No,,MLOps
+MLOps: Continuous delivery and automation pipelines in machine learning,https://cloud.google.com/solutions/machine-learning/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning,No,,MLOps
+클라우드 AI Platform TensorFlow 2 모델을 배포하는 방법,https://developers-kr.googleblog.com/2020/05/how-to-deploy-tensorflow-2-models-on-cloud-ai-platform.html,No,,MLOps
+논문을 무료로 보는 방법,https://www.youtube.com/watch?v=KtEIXFlfR_4&feature=youtu.be,No,,기타
+Causality and Machine Learning,https://www.microsoft.com/en-us/research/group/causal-inference/,No,,Causal Inference
+imbalanced-learn,https://imbalanced-learn.readthedocs.io/en/stable/,No,,Machine Learning
+It’s All A/Bout Testing: The Netflix Experimentation Platform,https://netflixtechblog.com/its-all-a-bout-testing-the-netflix-experimentation-platform-4e1ca458c15,No,,Data Analysis
+QGIS 관련 유튜브 영상(한국어),https://www.youtube.com/user/monotaxism/videos,No,,QGIS
+end-to-end-model-test-gcp,https://github.com/ReneeErnst/end-to-end-model-test-gcp#environment-variables-in-ai-platform-notebook,No,,MLOps
+How to print the full traceback without halting the program?,https://stackoverflow.com/questions/3702675/how-to-print-the-full-traceback-without-halting-the-program,No,,"Development, Python"
+Dependency Injector,http://python-dependency-injector.ets-labs.org/index.html,No,,Python
+Uber fiber,https://uber.github.io/fiber/introduction/,No,,"MLOps, Python"
+Uber Fiber 블로그 글,https://eng.uber.com/fiberdistributed/,No,,MLOps
+The Simplest Way to Serve your NLP Model in Production with Pure Python,https://medium.com/distributed-computing-with-ray/the-simplest-way-to-serve-your-nlp-model-in-production-with-pure-python-d42b6a97ad55,No,,MLOps
+Airflow Summit 2020,https://airflowsummit.org/,No,,"Data Engineering, MLOps"
+MIT 대학생 질문 받고 20초 동안 침묵한 스티브잡스(조직 관련),https://youtu.be/IEK5SPCai4A,No,,Leadership
+GCP Solution 아키텍쳐 예시,https://showcase.withgoogle.com/solutions-architecture/,No,,"Data Engineering, Google Cloud Platform"
+Awesome Network Analysis,https://github.com/briatte/awesome-network-analysis,No,,"Graph, Machine Learning"
+구글의 조직 문화,https://brunch.co.kr/@heyground/70,No,,Culture
+Software Engineering 101,https://www.slideshare.net/alexeymigutsky/software-engineering-101,No,,Development
+조던 피터슨 '균형 잡힌 삶 vs 한분야의 최고가 되기' 선택하세요,https://youtu.be/awWBEiZ7dm0,No,,동기부여
+"최고가 되기' 선택하세요뭘해도 술술 잘 풀리는 사람들의 화법 ",https://www.youtube.com/watch?v=XH9Cuqe7_jo,No,,화법
+ML Test 방식,https://www.jeremyjordan.me/testing-ml/,No,,MLOps
+MLOps - trains,https://github.com/allegroai/trains,No,,MLOps
+ml-system-design-pattern(한글),https://mercari.github.io/ml-system-design-pattern/README_ko.html,No,,MLOps
+The Role of the Data Engineer is Changing,https://www.kdnuggets.com/2019/01/role-data-engineer-changing.html,No,,Data Engineering
+Full Stack Deep Learning Docs,https://course.fullstackdeeplearning.com/,No,,MLOps
+Machine Learning Design Patterns Book,https://learning.oreilly.com/library/view/machine-learning-design/9781098115777/,No,,MLOps
+Introduction to Causal Inference 강의,https://www.bradyneal.com/causal-inference-course,No,,Causal Inference
+"Why Data Science Teams Need Generalists, Not Specialists 글",https://hbr.org/2019/03/why-data-science-teams-need-generalists-not-specialists,No,,MLOps
+Big Query Live Training - A Deep Dive into Data Pipelining,https://youtu.be/UPMH11BqvGs,No,,"BigQuery, Google Cloud Platform"
+Step-by-Step Guide to Link Your Google Analytics 4 Property to BigQuery,https://online-metrics.com/ga4-bigquery/,No,,"BigQuery, Google Analytics"
+Google Analytics 4 has launched,https://louder.com.au/2020/10/15/google-analytics-4-launches/,No,,Google Analytics
+Tools for Modeling Validation Process:The Dark Side of LP,http://home.ubalt.edu/ntsbarsh/business-stat/opre/partv.htm,No,,Optimization
+쿠버네티스 안내서 - 설치부터 배포까지(실습편),https://subicura.com/k8s/,No,,"DevOps, Kuberentes, MLOps"
+Spotify UX Analysis and Redesign,https://blog.prototypr.io/spotify-reverse-engineering-8f6a0d9850c8,No,,UX
+그로스해커 Interveiw,https://www.notion.so/Interview-Interviewer-9b8ba952d9cf4b74aee65e7acb014984,No,,Interview
+https://www.grabbing.me/IT-A-to-Z-By-1e1fbc981b7c4c03ac44943085ac8304,https://www.grabbing.me/IT-A-to-Z-By-1e1fbc981b7c4c03ac44943085ac8304,No,,개발 상식
+누구나 원하는 개발자되기,https://blog.shiren.dev/2020-11-23/,No,,커리어
+유용한 Product Management 컨텐츠,https://mobile.twitter.com/shreyas/status/1278208608103043073?fbclid=IwAR2IzNgQTgY_gC6UpdPXmI4bEBKMM8Tcl1E3milSGCf7WSSr4gtdv4YAC0Y,No,,PM
+가장 많이 사용되는 IntelliJ IDEA 단축키 15개,https://blog.jetbrains.com/ko/2020/03/11/top-15-intellij-idea-shortcuts_ko/,No,,"Development, IDE"
+Guidebook: Best Product Management Solutions and Tools — A mature landscape,https://nsuchaud.medium.com/guide-2020-best-product-management-solutions-and-tools-a-mature-landscape-9f0072463f40,No,,PM
+심심해서 실리콘 밸리 AI/ML research scientist 취업관련 질문 받는다,https://phdkim.net/board/free/7628/,No,,커리어
+"""How Long Does it Take for My Firebase Analytics Data to Show Up?""",https://firebase.googleblog.com/2016/11/how-long-does-it-take-for-my-firebase-analytics-data-to-show-up.html,No,,Firebase
+Announcing Realtime Exporting of your Analytics Data into BigQuery,https://firebase.googleblog.com/2016/08/real-time-exporting-of-analytics-data-into-bigquery.html,No,,"BigQuery, Firebase"
+AI Explanations Whitepaper,https://storage.googleapis.com/cloud-ai-whitepapers/AI%20Explainability%20Whitepaper.pdf,No,,"Google Cloud Platform, MLOps"
+Applied ML,https://github.com/eugeneyan/applied-ml,No,,"DataOps, MLOps"
+[Upstage Talks] Graph Database 입문자가 1년동안 배운 것들,https://www.youtube.com/watch?v=YJjsI8zQvno&ab_channel=Upstage,No,,Graph
+AB 프레임워크 planout,https://facebook.github.io/planout/,No,,"AB Test, Data Analysis"
+Why a codeless implementation will let you down,https://mixpanel.com/blog/codeless-analytics-problems/,No,,Data Analysis
+대성할 실무자들의 특징,https://www.facebook.com/juliuschunpage/posts/270789361305252#,No,,일잘러
+Bandit Algorithm,https://github.com/st-tech/zr-obp,No,,Data Analysis
+ai product to market,https://www.oreilly.com/radar/bringing-an-ai-product-to-market/,No,,PM
+PM/UX를 자료 모음(Cur-ration),https://www.notion.so/Cue-ration-1d738d06be06465ba03f7ae93ddbf9d3,No,,"PM, UX"
+Google Data Studio Essentials Free Video,https://blog.siavak.com/posts/google-data-studio-essentials-free-video-course,No,,Data Visualization
+Locale AI(지리 데이터 시각화 예시),https://blog.locale.ai/tag/use-case/,No,,Data Visualization
+How to Detect Model Drift in ML Monitoring,https://blog.fiddler.ai/2020/08/how-to-detect-data-drift/,No,,MLOps
+Evidently,https://github.com/evidentlyai/evidently,No,,MLOps
+실리콘 밸리의 엔지니어링 매니저(리더)들은 대체 무엇을 하는가? (2편),https://sendbird.com/ko/blog/eng-leader-role-2,No,,Leadership
+Which causal inference book you should read,https://www.bradyneal.com/which-causal-inference-book,No,,Causal Inference
+Why we re-designed our engineering career paths at CircleCI,https://circleci.com/blog/why-we-re-designed-our-engineering-career-paths-at-circleci/,No,,Leadership
+Flat Data - Github를 데이터 ETL 도구 및 저장소로 사용하기,https://news.hada.io/topic?id=4296,No,,Data Engineering
+All Algorithms implemented in Python,https://github.com/TheAlgorithms/Python,No,,Development
+New Google Cloud innovations to unify your data cloud,https://cloud.google.com/blog/products/data-analytics/google-cloud-announces-new-data-cloud-products,No,,Google Cloud Platform
+아이템에 대한 만족도는 플레이어가 게임을 열심히 하는데 영향을 미칠까??,https://danbi-ncsoft.github.io/works/2021/05/20/class_get_causal_analysis2.html,No,,Causal Inference
+GCP Dataflow Python 패키지,https://beam.apache.org/documentation/sdks/python-pipeline-dependencies/,No,,Google Cloud Platform
+"직감에서 계획까지 : ""신중한 실행 프레임워크""",https://stibee.com/api/v1.0/emails/share/ry2HEO51Yab9bZr2U4Jmr3Dy9OCyMg,No,,Data Analysis
+좋은 코드,https://sangminpark.blog/2021/05/28/%EC%A2%8B%EC%9D%80-%EC%BD%94%EB%93%9C/,No,,Development
+Doordash 기술 블로그,https://doordash.engineering/,No,,Development
+How These 8 Companies Implement MLOps – In-Depth Guide,https://neptune.ai/blog/how-these-8-companies-implement-mlops,No,,MLOps
+A/B testing in a long-distance carpooling marketplace,https://medium.com/blablacar/a-b-testing-in-a-long-distance-carpooling-marketplace-35a67737f4b,No,,Data Analysis
+"MLOps: What It Is, Why it Matters, and How To Implement It (from a Data Scientist Perspective)",https://neptune.ai/blog/mlops-what-it-is-why-it-matters-and-how-to-implement-it-from-a-data-scientist-perspective,No,,MLOps
+Airflow CI/CD: Github to Cloud Composer (safely),https://www.youtube.com/watch?v=ZgTf523XM0g,No,,"Data Engineering, MLOps"
+Experimentation Platform(Microsoft),https://www.microsoft.com/en-us/research/group/experimentation-platform-exp/,No,,AB Test
+온라인 회의 잘하기,https://www.notion.so/a52501fd895b4436aa367e22fcd0dedf,No,,Online
+성공적인 채용 면접의 공공연한 비결,http://egloos.zum.com/agile/v/5359401,No,,Interview
+인터뷰에서 진실을 들으려면,http://agile.egloos.com/2891385,No,,Interview
+41 Behavioural Interview Questions You Must Know (Best Answers Included),https://www.themartec.com/insidelook/behavioral-interview-questions,No,,Interview
+Mode의 Analytics Training,https://mode.com/sql-tutorial/sql-business-analytics-training/,No,,Data Analysis
+wiki,,No,,
+task1,,No,,ing
+task,,No,,ing
+,http://www.engineeringladders.com/,No,,Leadership
+Engineering Ladders(엔지니어 매니저의 프레임워크),http://www.engineeringladders.com/Developer.html#d3---developer-3,No,,Leadership
+Trustworthy Online Controlled Experiments: A Practical Guide to A/B Testing 정리,https://docs.google.com/presentation/d/1bOnRKwxblFZ3DBNLM5VjHLXfAMHuiNFoqctnFEpyWl0/edit,No,,AB Test
+"마케팅 데이터 분석, 저는 이렇게 합니다",https://brunch.co.kr/@milaresoltimi/113,No,,Marketing
+PRML - 리뉴얼본,https://probml.github.io/pml-book/,No,,"Machine Learning, Math"
+KAIST CS431: Concurrent Programming,https://www.youtube.com/playlist?list=PL5aMzERQ_OZ9j40DJNlsem2qAGoFbfwb4,No,,Development
+"AB Test 기업 블로그 ",,No,,AB Test
+Causal Inference Book,https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/,No,,Causal Inference
+Dropbox Engineering Career Framework,https://dropbox.github.io/dbx-career-framework/overview.html,No,,Leadership
+Engineering Carrer Framework(Sheet),https://docs.google.com/spreadsheets/d/1k_QkZISJ2cIk_Py_pdzsAt5fUwWOYZVkkXg4KZM8IXA/htmlview,No,,Leadership
+Gitlab Engineering Career Framework,https://about.gitlab.com/handbook/engineering/career-development/matrix/engineering/#engineering-career-framework,No,,Leadership
+Thinkful Data Analytics Career Path,https://www.thinkful.com/blog/data-analytics-career-path/,No,,Leadership
+What is the Typical Data Analyst Career Path?,https://careerfoundry.com/en/blog/data-analytics/data-analyst-career-path/,No,,Leadership
+Building a Career in Data Science and Analytics: The Ultimate Guide,https://blog.edx.org/data-science-analytics-career-guide,No,,"Career, Leadership"
+LyftLearn: ML Model Training Infrastructure built on Kubernetes,https://eng.lyft.com/lyftlearn-ml-model-training-infrastructure-built-on-kubernetes-aef8218842bb,No,,MLOps
+Cheat Sheets for Machine Learning and Data Science,https://sites.google.com/view/datascience-cheat-sheets,No,,Interview
+Google Cloud Deploy,https://cloud.google.com/deploy/docs/overview,No,,"Data Engineering, DevOps"
+What type of data processing organization are you?,https://cloud.google.com/blog/products/data-analytics/data-driven-transformation-using-googles-unified-analytics-platform,No,,"Data Engineering, DataOps"
+ipywidget 사용법,https://engineer-mole.tistory.com/180,No,,Data Visualization
+외국계 면접)Behavioral Interview (행동면접) 질문리스트,https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=yoojun0&logNo=221536806296,No,,Interview
+데이터 리터러시 올리는 CDO(최고 데이터 책임자)의 8가지 역할,https://slownews.kr/82175,No,,Data Literacy
+Want to Improve Your Career? Become an Uncertainty Killer,https://ofdollarsanddata.com/become-an-uncertainty-killer/,No,,Career
+How Airbnb Enables Consistent Data Consumption at Scale,https://medium.com/airbnb-engineering/how-airbnb-enables-consistent-data-consumption-at-scale-1c0b6a8b9206,No,,Data Engineering
+How Airbnb Achieved Metric Consistency at Scale,https://medium.com/airbnb-engineering/how-airbnb-achieved-metric-consistency-at-scale-f23cc53dea70,No,,Data Engineering
+"Automating Data Protection at Scale, Part 1",https://medium.com/airbnb-engineering/automating-data-protection-at-scale-part-1-c74909328e08,No,,Data Engineering
+좋은 '열망'을 이끄는가,https://brunch.co.kr/@workplays/79,No,,Leadership
+Our journey towards an open data platform,https://medium.com/yotpoengineering/our-journey-towards-an-open-data-platform-8cfac98ef9f5,No,,Data Engineering
+How to Move Beyond a Monolithic Data Lake to a Distributed Data Mesh,https://martinfowler.com/articles/data-monolith-to-mesh.html,No,,Data Engineering
+Customized Regression Model for Airbnb Dynamic Pricing,https://t1.daumcdn.net/cfile/tistory/9978AD3B5BA227531F?download,No,,Dynamic Pricing
+음식 배달 앱 아키텍처 분석(한국어),https://www.joinc.co.kr/w/man/12/architecture/EndToEndDesignOfFoodDeliveryApp,No,,Development
+End to End Design of food delivery app (Zomato or Swiggy),https://medium.com/@ravindersengar/end-to-end-design-of-a-food-delivery-app-like-zomato-or-swiggy-52b96f3a635f,No,,Development
+몸 값 안 올리기,https://agile.egloos.com/5783372,No,,Leadership
+Reimaged From devOps To MLOps,https://wangkang85.notion.site/Reimagined-From-DevOps-to-MLOps-af9937177e3c487396cfec34a858c330,No,,MLOps
+Your Data PM is not a panacea,https://roundup.getdbt.com/p/your-data-pm-is-not-a-panacea,No,,Data PM
+Awesome AI Infrastructures,https://github.com/1duo/awesome-ai-infrastructures,No,,MLOps
+FLAML,https://github.com/microsoft/FLAML,No,,MLOps
+Elyra(Notebook),https://github.com/elyra-ai/elyra,No,,MLOps
+C레벨 뽑으세요? C레벨 제안 받았어요? 5가지만 기억하세요.,https://outstanding.kr/clevel20211220,No,,Leadership
+Real-time machine learning: challenges and solutions,https://huyenchip.com/2022/01/02/real-time-machine-learning-challenges-and-solutions.html,No,,MLOps
+2022년 우리의 커리어를 형성할 트렌드들,https://news.hada.io/topic?id=5672,No,,Career
+Analytics Engineer vs BI Engineer: The Hybrid Data Roles,https://medium.com/analytics-vidhya/analytics-engineer-vs-bi-engineer-the-hybrid-twins-80fe30e85511,No,,Career
+Analytics Engineer vs. BI Developer,https://www.linkedin.com/pulse/analytics-engineer-vs-bi-developer-vincenzo-porpiglia/,No,,Career
+Causal Inference for The Brave and True,https://matheusfacure.github.io/python-causality-handbook/landing-page.html,No,,Causal Inference
+Modern Data Stack,https://www.moderndatastack.xyz/categories,No,,Data Engineering
+What is a metrics store? Why your data team should define business metrics in code,https://blog.transform.co/what-is-a-metrics-store-why-your-data-team-should-define-business-metrics-in-code/,No,,Data Engineering
+Marketing Multi-Channel Attribution model with R (part 1: Markov chains concept),https://www.analyzecore.com/2016/08/03/attribution-model-r-part-1/,No,,Data Analysis
+Education NFTs Will Replace Diplomas and Resumes,https://www.linkedin.com/pulse/education-nfts-replace-diplomas-resumes-beau-brannan/,No,,NFT
+API First Development,https://youtu.be/Dhz_NqnsRcE,No,,Development
+목적 조직과 기능 조직,https://hbr.org/1968/11/organizational-choice-product-vs-function,No,,Leadership
+준 실시간 Data Lake 구성하기,https://medium.com/tripstore-data-product/%EC%A4%80-%EC%8B%A4%EC%8B%9C%EA%B0%84-data-lake-%EA%B5%AC%EC%84%B1%ED%95%98%EA%B8%B0-e3fb60548e01,No,,Data Engineering
