@@ -1,6 +1,6 @@
-# 14. 쿠베플로우 part3
+# 14. kubeflow part3
 
-![14%20%E1%84%8F%E1%85%AE%E1%84%87%E1%85%A6%E1%84%91%E1%85%B3%E1%86%AF%20a1028/Untitled.png](14%20%E1%84%8F%E1%85%AE%E1%84%87%E1%85%A6%E1%84%91%E1%85%B3%E1%86%AF%20a1028/Untitled.png)
+![14%20kubeflo%20a1028/Untitled.png](14%20kubeflo%20a1028/Untitled.png)
 
 ### TF_MNIST
 
@@ -59,7 +59,7 @@ if __name__ == '__main__':
 
 ### CatBoost
 
-![14%20%E1%84%8F%E1%85%AE%E1%84%87%E1%85%A6%E1%84%91%E1%85%B3%E1%86%AF%20a1028/Untitled%201.png](14%20%E1%84%8F%E1%85%AE%E1%84%87%E1%85%A6%E1%84%91%E1%85%B3%E1%86%AF%20a1028/Untitled%201.png)
+![14%20kubeflo%20a1028/Untitled%201.png](14%20kubeflo%20a1028/Untitled%201.png)
 
 ```python
 import kfp

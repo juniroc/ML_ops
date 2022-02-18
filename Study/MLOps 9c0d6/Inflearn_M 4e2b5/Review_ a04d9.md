@@ -217,21 +217,21 @@
     
     - 위 코드를 통해 코드를 업데이트
     
-    ![5%20%E1%84%85%E1%85%B5%E1%84%89%E1%85%A5%E1%84%8E%E1%85%B5%20%E1%84%8F%20b5ec5/Untitled%2029.png](5%20%E1%84%85%E1%85%B5%E1%84%89%E1%85%A5%E1%84%8E%E1%85%B5%20%E1%84%8F%20b5ec5/Untitled%2029.png)
+    ![5%20Managing%20b5ec5/Untitled%2029.png](5%20Managing%20b5ec5/Untitled%2029.png)
     
-    ![5%20%E1%84%85%E1%85%B5%E1%84%89%E1%85%A5%E1%84%8E%E1%85%B5%20%E1%84%8F%20b5ec5/Untitled%2030.png](5%20%E1%84%85%E1%85%B5%E1%84%89%E1%85%A5%E1%84%8E%E1%85%B5%20%E1%84%8F%20b5ec5/Untitled%2030.png)
+    ![5%20Managing%20b5ec5/Untitled%2030.png](5%20Managing%20b5ec5/Untitled%2030.png)
     
     - 위와 같이 CI 진행 (자동으로 이미지 pulling)
     
-    ![5%20%E1%84%85%E1%85%B5%E1%84%89%E1%85%A5%E1%84%8E%E1%85%B5%20%E1%84%8F%20b5ec5/Untitled%2031.png](5%20%E1%84%85%E1%85%B5%E1%84%89%E1%85%A5%E1%84%8E%E1%85%B5%20%E1%84%8F%20b5ec5/Untitled%2031.png)
+    ![5%20Managing%20b5ec5/Untitled%2031.png](5%20Managing%20b5ec5/Untitled%2031.png)
     
     - 앗 에러 발생
     
-    ![5%20%E1%84%85%E1%85%B5%E1%84%89%E1%85%A5%E1%84%8E%E1%85%B5%20%E1%84%8F%20b5ec5/Untitled%2032.png](5%20%E1%84%85%E1%85%B5%E1%84%89%E1%85%A5%E1%84%8E%E1%85%B5%20%E1%84%8F%20b5ec5/Untitled%2032.png)
+    ![5%20Managing%20b5ec5/Untitled%2032.png](5%20Managing%20b5ec5/Untitled%2032.png)
     
     - **73~74**가 **75~80 코드**로 변환되어야 함을 알림
     
-    ![5%20%E1%84%85%E1%85%B5%E1%84%89%E1%85%A5%E1%84%8E%E1%85%B5%20%E1%84%8F%20b5ec5/Untitled%2033.png](5%20%E1%84%85%E1%85%B5%E1%84%89%E1%85%A5%E1%84%8E%E1%85%B5%20%E1%84%8F%20b5ec5/Untitled%2033.png)
+    ![5%20Managing%20b5ec5/Untitled%2033.png](5%20Managing%20b5ec5/Untitled%2033.png)
     
     - Push Request를 막음
     

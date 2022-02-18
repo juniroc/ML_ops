@@ -1,54 +1,54 @@
-# 11. 쿠베플로우 Part1
+# 11. kubeflow Part1
 
-![11%20%E1%84%8F%E1%85%AE%E1%84%87%E1%85%A6%E1%84%91%E1%85%B3%E1%86%AF%203d286/Untitled.png](11%20%E1%84%8F%E1%85%AE%E1%84%87%E1%85%A6%E1%84%91%E1%85%B3%E1%86%AF%203d286/Untitled.png)
+![11%20kubeflo%203d286/Untitled.png](11%20kubeflo%203d286/Untitled.png)
 
-![11%20%E1%84%8F%E1%85%AE%E1%84%87%E1%85%A6%E1%84%91%E1%85%B3%E1%86%AF%203d286/Untitled%201.png](11%20%E1%84%8F%E1%85%AE%E1%84%87%E1%85%A6%E1%84%91%E1%85%B3%E1%86%AF%203d286/Untitled%201.png)
+![11%20kubeflo%203d286/Untitled%201.png](11%20kubeflo%203d286/Untitled%201.png)
 
 ex) 
 
 - 여러 데이터 셋을 동일한 컴포넌트로 전처리 가능
 
-![11%20%E1%84%8F%E1%85%AE%E1%84%87%E1%85%A6%E1%84%91%E1%85%B3%E1%86%AF%203d286/Untitled%202.png](11%20%E1%84%8F%E1%85%AE%E1%84%87%E1%85%A6%E1%84%91%E1%85%B3%E1%86%AF%203d286/Untitled%202.png)
+![11%20kubeflo%203d286/Untitled%202.png](11%20kubeflo%203d286/Untitled%202.png)
 
 - 모든 컴포넌트는 도커로 되어있음
 
 **파이프라인 & 컴포넌트**
 
-![11%20%E1%84%8F%E1%85%AE%E1%84%87%E1%85%A6%E1%84%91%E1%85%B3%E1%86%AF%203d286/Untitled%203.png](11%20%E1%84%8F%E1%85%AE%E1%84%87%E1%85%A6%E1%84%91%E1%85%B3%E1%86%AF%203d286/Untitled%203.png)
+![11%20kubeflo%203d286/Untitled%203.png](11%20kubeflo%203d286/Untitled%203.png)
 
-![11%20%E1%84%8F%E1%85%AE%E1%84%87%E1%85%A6%E1%84%91%E1%85%B3%E1%86%AF%203d286/Untitled%204.png](11%20%E1%84%8F%E1%85%AE%E1%84%87%E1%85%A6%E1%84%91%E1%85%B3%E1%86%AF%203d286/Untitled%204.png)
+![11%20kubeflo%203d286/Untitled%204.png](11%20kubeflo%203d286/Untitled%204.png)
 
 **그래프**
 
-![11%20%E1%84%8F%E1%85%AE%E1%84%87%E1%85%A6%E1%84%91%E1%85%B3%E1%86%AF%203d286/Untitled%205.png](11%20%E1%84%8F%E1%85%AE%E1%84%87%E1%85%A6%E1%84%91%E1%85%B3%E1%86%AF%203d286/Untitled%205.png)
+![11%20kubeflo%203d286/Untitled%205.png](11%20kubeflo%203d286/Untitled%205.png)
 
 **실험**
 
-![11%20%E1%84%8F%E1%85%AE%E1%84%87%E1%85%A6%E1%84%91%E1%85%B3%E1%86%AF%203d286/Untitled%206.png](11%20%E1%84%8F%E1%85%AE%E1%84%87%E1%85%A6%E1%84%91%E1%85%B3%E1%86%AF%203d286/Untitled%206.png)
+![11%20kubeflo%203d286/Untitled%206.png](11%20kubeflo%203d286/Untitled%206.png)
 
 **ex) 파이프라인 코드**
 
-![11%20%E1%84%8F%E1%85%AE%E1%84%87%E1%85%A6%E1%84%91%E1%85%B3%E1%86%AF%203d286/Untitled%207.png](11%20%E1%84%8F%E1%85%AE%E1%84%87%E1%85%A6%E1%84%91%E1%85%B3%E1%86%AF%203d286/Untitled%207.png)
+![11%20kubeflo%203d286/Untitled%207.png](11%20kubeflo%203d286/Untitled%207.png)
 
-![11%20%E1%84%8F%E1%85%AE%E1%84%87%E1%85%A6%E1%84%91%E1%85%B3%E1%86%AF%203d286/Untitled%208.png](11%20%E1%84%8F%E1%85%AE%E1%84%87%E1%85%A6%E1%84%91%E1%85%B3%E1%86%AF%203d286/Untitled%208.png)
+![11%20kubeflo%203d286/Untitled%208.png](11%20kubeflo%203d286/Untitled%208.png)
 
-![11%20%E1%84%8F%E1%85%AE%E1%84%87%E1%85%A6%E1%84%91%E1%85%B3%E1%86%AF%203d286/Untitled%209.png](11%20%E1%84%8F%E1%85%AE%E1%84%87%E1%85%A6%E1%84%91%E1%85%B3%E1%86%AF%203d286/Untitled%209.png)
+![11%20kubeflo%203d286/Untitled%209.png](11%20kubeflo%203d286/Untitled%209.png)
 
 **쿠베플로우 파이프라인이 필요한 이유**
 
-![11%20%E1%84%8F%E1%85%AE%E1%84%87%E1%85%A6%E1%84%91%E1%85%B3%E1%86%AF%203d286/Untitled%2010.png](11%20%E1%84%8F%E1%85%AE%E1%84%87%E1%85%A6%E1%84%91%E1%85%B3%E1%86%AF%203d286/Untitled%2010.png)
+![11%20kubeflo%203d286/Untitled%2010.png](11%20kubeflo%203d286/Untitled%2010.png)
 
 - **도커와 Pod**는 **1:1 매핑**
 
-![11%20%E1%84%8F%E1%85%AE%E1%84%87%E1%85%A6%E1%84%91%E1%85%B3%E1%86%AF%203d286/Untitled%2011.png](11%20%E1%84%8F%E1%85%AE%E1%84%87%E1%85%A6%E1%84%91%E1%85%B3%E1%86%AF%203d286/Untitled%2011.png)
+![11%20kubeflo%203d286/Untitled%2011.png](11%20kubeflo%203d286/Untitled%2011.png)
 
-![11%20%E1%84%8F%E1%85%AE%E1%84%87%E1%85%A6%E1%84%91%E1%85%B3%E1%86%AF%203d286/Untitled%2012.png](11%20%E1%84%8F%E1%85%AE%E1%84%87%E1%85%A6%E1%84%91%E1%85%B3%E1%86%AF%203d286/Untitled%2012.png)
+![11%20kubeflo%203d286/Untitled%2012.png](11%20kubeflo%203d286/Untitled%2012.png)
 
 ---
 
 ### 실습
 
-![11%20%E1%84%8F%E1%85%AE%E1%84%87%E1%85%A6%E1%84%91%E1%85%B3%E1%86%AF%203d286/Untitled%2013.png](11%20%E1%84%8F%E1%85%AE%E1%84%87%E1%85%A6%E1%84%91%E1%85%B3%E1%86%AF%203d286/Untitled%2013.png)
+![11%20kubeflo%203d286/Untitled%2013.png](11%20kubeflo%203d286/Untitled%2013.png)
 
 - experiment에서 해당 노드 선택시 Hello World가 뜨도록
 
@@ -56,7 +56,7 @@ ex)
 
  
 
-![11%20%E1%84%8F%E1%85%AE%E1%84%87%E1%85%A6%E1%84%91%E1%85%B3%E1%86%AF%203d286/Untitled%2014.png](11%20%E1%84%8F%E1%85%AE%E1%84%87%E1%85%A6%E1%84%91%E1%85%B3%E1%86%AF%203d286/Untitled%2014.png)
+![11%20kubeflo%203d286/Untitled%2014.png](11%20kubeflo%203d286/Untitled%2014.png)
 
 ```python
 import kfp ### kubeflow pipeline 로드
@@ -124,7 +124,7 @@ if __name__ == "__main__":
 
 ### ADD (컴포넌트 연결)
 
-![11%20%E1%84%8F%E1%85%AE%E1%84%87%E1%85%A6%E1%84%91%E1%85%B3%E1%86%AF%203d286/Untitled%2015.png](11%20%E1%84%8F%E1%85%AE%E1%84%87%E1%85%A6%E1%84%91%E1%85%B3%E1%86%AF%203d286/Untitled%2015.png)
+![11%20kubeflo%203d286/Untitled%2015.png](11%20kubeflo%203d286/Untitled%2015.png)
 
 ```python
 import kfp
@@ -189,7 +189,7 @@ if __name__ == "__main__":
 
 ### Parallel (동시에 띄우기)
 
-![11%20%E1%84%8F%E1%85%AE%E1%84%87%E1%85%A6%E1%84%91%E1%85%B3%E1%86%AF%203d286/Untitled%2016.png](11%20%E1%84%8F%E1%85%AE%E1%84%87%E1%85%A6%E1%84%91%E1%85%B3%E1%86%AF%203d286/Untitled%2016.png)
+![11%20kubeflo%203d286/Untitled%2016.png](11%20kubeflo%203d286/Untitled%2016.png)
 
 ```python
 import kfp
