@@ -54,7 +54,7 @@ async def read_item(item_id):
     return {"item_id": item_id}
 ```
 
-[images_1](./img/1.png)
+![images_1](./img/1.png)
 
 
 - 경로를 매개변수로 받을 수 있음
@@ -66,21 +66,21 @@ async def read_item(item_id: int):
 
 위와 같이 넣어줄 수 있음.
 
-[images_2](./img/2.png)
+![images_2](./img/2.png)
 
 - 만약 데이터 검증을 위해 `item_id : int` 를 넣어주었다면
 
-[images_3](./img/3.png)
+![images_3](./img/3.png)
 - 다음과 같이 에러메시지 출력
 
-[images_4](./img/4.png)
+![images_4](./img/4.png)
 - 정상입력한 경우
 
 
 - `localhost:port/docs` 를 들어가면
-[images_5](./img/5.png)
+![images_5](./img/5.png)
 
-[images_6](./img/6.png)
+![images_6](./img/6.png)
 - `requirement` 와 `error log` 를 확인 할 수 있음
 
 ---
@@ -107,9 +107,9 @@ async def read_user(user_id: str):
 
 `/users/{user_id}` 보다 먼저 선언해주어야 함
 
-[images_7](./img/7.png)
+![images_7](./img/7.png)
 
-[images_8](./img/8.png)
+![images_8](./img/8.png)
 
 
 ### test_4.py
@@ -142,13 +142,13 @@ async def get_model(model_name: ModelName):
     return {"model_name": model_name, "message": "Have some residuals"}
 ```
 
-[images_9](./img/9.png)
+![images_9](./img/9.png)
 
-[images_10](./img/10.png)
+![images_10](./img/10.png)
 - 이외의 값일 경우의 error messege
 
 - `localhost:port/docs` 접속할 경우
-[images_11](./img/11.png)
+![images_11](./img/11.png)
 
 또는 다음과 같은 방법으로 확인도 가능
 - `if model_name.value == "lenet":`
@@ -182,11 +182,11 @@ async def read_file(file_path: str):
 
 ```
 
-[images_12](./img/12.png)
+![images_12](./img/12.png)
 - 위와같이 `/` 를 2개 넣어주어야 함
 
-[images_13](./img/13.png)
+![images_13](./img/13.png)
 - 다음과 같이 txt 파일을 만들고
 
-[images_14](./img/14.png)
+![images_14](./img/14.png)
 - file_path를 입력해주면 출력됨
