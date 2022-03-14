@@ -14,6 +14,6 @@
 
 [Data Seminar : 데이터야 놀자](MLOps%209c0d6/Data%20Semin%202f3a5.md)
 
-[ML System Design Pattern (writing)](MLOps%209c0d6/ML-System-book.md)
+[ML System Design Pattern - book (writing)](MLOps%209c0d6/ML-System-book.md)
 
 [FastCampus - MLOps](MLOps%209c0d6/FastCampus%2082888.md)
