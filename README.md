@@ -12,7 +12,7 @@
 
 * [**mlflow**](https://github.com/juniroc/ML_ops/tree/main/mlflow_)
 
-* [**BentoML**](yatai_Bentoml%20on%20k8s/)
+* [**BentoML on k8s (Yatai)**](yatai_Bentoml%20on%20k8s/)
 
 
 ---
