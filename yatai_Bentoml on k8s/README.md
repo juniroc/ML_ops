@@ -11,20 +11,20 @@ Yatai 가 K8s native 하기 때문
 
 - 대신 Port-forwarding 을 통해 접근
 
-![image](./images/1.png.png)
+![image](./images/1.png)
 - `yatai-system` namespace 에서 `yatai` 라는 service 를 열어주면 된다
 
 - initial id : `admin` / initial password : `admin`
 
 접속을 하면 다음과 같이 나옴
 
-![image](./images/2.png.png)
+![image](./images/2.png)
 
-![image](./images/3.png.png)
+![image](./images/3.png)
 
-![image](./images/4.png.png)
+![image](./images/4.png)
 
-![image](./images/5.png.png)
+![image](./images/5.png)
 
 
 
@@ -50,15 +50,15 @@ bentoml.xgboost.save('xgb_model', mo_)
 - 기존 보다 단순해짐 해당 모델에 맞는 라이브러리 불러와서 bentoml.{library}.save('{save_name}', model) 로 작성 가
 - `python3 model_packing_save.py` 으로 실행 
 
-![image](./images/6.png.png)
+![image](./images/6.png)
 
 - 위와 같이 실행 완료 메시지가 나오며
 - `~/bentoml/models` 를 확인해보면 `save_name` 으로 폴더가 생성된 것을 확인 가능
-![image](./images/7.png.png)
+![image](./images/7.png)
 
 `bentoml directory tree`
 
-![image](./images/8.png.png)
+![image](./images/8.png)
 
 
 `model.yaml`
@@ -81,7 +81,7 @@ metadata: {}
 ```
 
 - `bentoml models list` 명령어로도 확인 가능
-![image](./images/9.png.png)
+![image](./images/9.png)
 
 
 `service.py`
@@ -105,13 +105,13 @@ def predict(input_arr):
     return res
 ```
 
-![image](./images/10.png.png)
+![image](./images/10.png)
 
 - 위처럼 `service.py` 파일을 실행할 필요는 없음
 
 - `bentoml serve ./service.py:xgb_model --reload` 명령어를 통해 모델 서
 
-![image](./images/11.png.png)
+![image](./images/11.png)
 
 
 - 위와같이 나오면 Serving 이 완료된 것
@@ -148,12 +148,12 @@ print(response.text)
 
 - `python3 request.py` 명령어 실행
 
-![image](./images/12.png.png)
+![image](./images/12.png)
 
 - 위와 같이 결과가 return 되는 것을 확인할 수 있음
 
 `serving server log`
-![image](./images/13.png.png)
+![image](./images/13.png)
 - 서빙하는 곳에서 로그 확인도 가능하다
 
 - 끝.. 난줄 알았지만 이제 시작.. Containerize 하여 K8s 위에 올려야 한다.
@@ -182,11 +182,11 @@ python:
 - `bentofile`을  작성했다면
 - `bentoml build` 명령어 실행
 
-![image](./images/14.png.png)
+![image](./images/14.png)
 
 - 위와같이 성공했다면, `bentoml list` 명령어 를 통해 `bento list`를 확인
 
-![image](./images/15.png.png)
+![image](./images/15.png)
 
 - `~/bentoml/bentoms` 디렉토리를 확인해보면 다음과 같은 구조로 생성되어있음
 ```
