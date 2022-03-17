@@ -1,4 +1,4 @@
-# ML System Design Pattern (writing)
+# ML System Design Pattern - book (writing)
 
 [Chapter 1. ML system pattern화](ML-System-book/Chapter%201%20%201f3b9.md)
 
