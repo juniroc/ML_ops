@@ -11,20 +11,20 @@ Yatai 가 K8s native 하기 때문
 
 - 대신 Port-forwarding 을 통해 접근
 
-![image](/uploads/bc101665bdff66f2a0129889c08f8cc2/image.png)
+![image](./images/1.png.png)
 - `yatai-system` namespace 에서 `yatai` 라는 service 를 열어주면 된다
 
 - initial id : `admin` / initial password : `admin`
 
 접속을 하면 다음과 같이 나옴
 
-![image](/uploads/474d4621b4f248eba15e9bf5dac5e623/image.png)
+![image](./images/2.png.png)
 
-![image](/uploads/e0746b8d2a8c57d010819d2a655e45bb/image.png)
+![image](./images/3.png.png)
 
-![image](/uploads/b5b90bb6dcae1c7d37045624f3d8d84e/image.png)
+![image](./images/4.png.png)
 
-![image](/uploads/ab1c59f2d9cee5d19f865d8fb24a519b/image.png)
+![image](./images/5.png.png)
 
 
 
@@ -50,15 +50,16 @@ bentoml.xgboost.save('xgb_model', mo_)
 - 기존 보다 단순해짐 해당 모델에 맞는 라이브러리 불러와서 bentoml.{library}.save('{save_name}', model) 로 작성 가
 - `python3 model_packing_save.py` 으로 실행 
 
-![image](/uploads/03dfd88f7f6d05a007bd1c7e5017ac0f/image.png)
+![image](./images/6.png.png)
 
 - 위와 같이 실행 완료 메시지가 나오며
 - `~/bentoml/models` 를 확인해보면 `save_name` 으로 폴더가 생성된 것을 확인 가능
-![image](/uploads/4696ba1169d7c42bc95171d40abd6934/image.png)
+![image](./images/7.png.png)
 
 `bentoml directory tree`
 
-![image](/uploads/221b2135a3b405a370b5eb1a4457e2a8/image.png)
+![image](./images/8.png.png)
+
 
 `model.yaml`
 ```
@@ -80,7 +81,7 @@ metadata: {}
 ```
 
 - `bentoml models list` 명령어로도 확인 가능
-![image](/uploads/a03765bc61ea84504717668ae481db54/image.png)
+![image](./images/9.png.png)
 
 
 `service.py`
@@ -104,12 +105,14 @@ def predict(input_arr):
     return res
 ```
 
-![image](/uploads/46b8d80ae0d5917884aef6528d4bc8c0/image.png)
+![image](./images/10.png.png)
+
 - 위처럼 `service.py` 파일을 실행할 필요는 없음
 
 - `bentoml serve ./service.py:xgb_model --reload` 명령어를 통해 모델 서
 
-![image](/uploads/468d121887d6e7ceeb755f7904b38b14/image.png)
+![image](./images/11.png.png)
+
 
 - 위와같이 나오면 Serving 이 완료된 것
 
@@ -145,12 +148,12 @@ print(response.text)
 
 - `python3 request.py` 명령어 실행
 
-![image](/uploads/74a5c389c5214e4a2afc4767218b16bb/image.png)
+![image](./images/12.png.png)
 
 - 위와 같이 결과가 return 되는 것을 확인할 수 있음
 
 `serving server log`
-![image](/uploads/9a5fd3c28958ea771afe88f2468575f0/image.png)
+![image](./images/13.png.png)
 - 서빙하는 곳에서 로그 확인도 가능하다
 
 - 끝.. 난줄 알았지만 이제 시작.. Containerize 하여 K8s 위에 올려야 한다.
@@ -179,11 +182,11 @@ python:
 - `bentofile`을  작성했다면
 - `bentoml build` 명령어 실행
 
-![image](/uploads/73d2332466a7898005b855fdfd40f6d2/image.png)
+![image](./images/14.png.png)
 
 - 위와같이 성공했다면, `bentoml list` 명령어 를 통해 `bento list`를 확인
 
-![image](/uploads/45d16695ded41f2099be0edcf8d478eb/image.png)
+![image](./images/15.png.png)
 
 - `~/bentoml/bentoms` 디렉토리를 확인해보면 다음과 같은 구조로 생성되어있음
 ```
