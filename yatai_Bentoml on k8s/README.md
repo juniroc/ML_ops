@@ -226,3 +226,47 @@ bentoml
 - `bentofile`에서 작성해준 `README.md` 파일 생성
 - `models` directory 는 이전에 `service.py`를 그냥 실행했을 떄와 같은 `directory` 생성
 - `docker` directory를 보면 이후에 컨테이너화 할 때 쓰일 `Dockerfile` 존재
+
+
+- 같은 방법으로 list 목록에 있는 bento model 을 서빙해줄 수 있음
+- bentoml serve xgb_classifier:latest
+
+![image](./images/16.png)
+
+- 인퍼런스 시도
+
+![image](./images/17.png)
+
+---
+
+- 빌드를 완료하였으니, Docker Image로 Containerize
+- 단순히 `bentoml list` 에 있는 내용을 그대로 이용
+
+- `bentoml list`
+
+![image](./images/18.png)
+
+- `bentoml containerize xgb_classifier:latest` 명령어로 컨테이너 화
+
+![image](./images/19.png)
+
+- 그런데 도커 내 permission 권한으로 인해 실행이 안됨
+
+- `sudo bentoml containerize xgb_classifier:latest` 를 실행해도
+![image](./images/20.png)
+
+- 다음과 같이 해결이 안됨
+
+- 이럴 때는 `whereis` 명령어를 이용해 설치된 위치 알아내기
+
+- `whereis bentoml`
+![image](./images/21.png)
+
+- `sudo <path_bentoml> containerize xgb_classifier:latest` 명령어를 이용해 컨테이너화 시킴
+![image](./images/22.png)
+
+- 성공적으로 작동함을 알 수 있음
+
+- `sudo docker images | grep xgb`
+
+![image](./images/23.png)
