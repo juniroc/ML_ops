@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: bento-model
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: model
+  template:
+    metadata:
+      labels:
+        app: model
+    spec:
+      containers:
+        - name: lgbm-model-init
+          image: zerooneai/lgbm_classifier:0.0.3
+          ports:
+            - containerPort: 3000
+              protocol: TCP
