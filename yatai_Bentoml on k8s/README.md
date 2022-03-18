@@ -253,6 +253,7 @@ bentoml
 - 그런데 도커 내 permission 권한으로 인해 실행이 안됨
 
 - `sudo bentoml containerize xgb_classifier:latest` 를 실행해도
+
 ![image](./images/20.png)
 
 - 다음과 같이 해결이 안됨
