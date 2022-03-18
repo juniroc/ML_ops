@@ -1,0 +1,15 @@
+service: "service_2.py:lgbm_model"
+description: "file: ./README.md"
+labels:
+    owner: mj-lee
+    stage: demo
+include:
+  - "*.py"
+python:
+  packages:
+    - scikit-learn
+    - pandas
+    - xgboost
+    - numpy
+    - torch
+    - lightgbm==3.2.1

@@ -397,3 +397,173 @@ print(socket.gethostbyname(socket.gethostname()))
 
 - 잘 작동함
 
+---
+
+- 사실 새로운 버전으로 업데이트하고 싶은 경우 `deployment.yml` 파일을 새로 만들때 주의사항이 있음 \
+-> 다음 버전 모델을 위한 `deployment.yml`에서 `selector, template, port` 를 맞춰주어야 함
+
+- 이전 모델 버전 교환 테스트를 위해 기존 `yaml` 수정
+
+`deploy_model.yml`
+```
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: bento-model
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: model
+  template:
+    metadata:
+      labels:
+        app: model
+    spec:
+      containers:
+        - name: xgb-model-init
+          image: zerooneai/xgb_model:0.0.0
+          ports:
+            - containerPort: 3000
+              protocol: TCP
+
+```
+
+- xgb-model -> model 로 바꿔줌
+- name : bento-model 통일시켜 pod 이름이 통일되게 생성되도록 함 \
+  -> 이름이 다를 경우 그냥 다른 이름으로 생성해서 pod 갯수가 replicas * 2 개가 떠버림.. 
+
+![image](./images/30.png)
+
+
+
+- 마찬가지로 `service.yml` 파일도 수정
+
+`service.yml`
+```
+apiVersion: v1
+kind: Service
+metadata:
+  name: model-lb
+spec:
+  type: LoadBalancer
+  ports:
+    - port: 3000
+#      targetPort: 31000
+      protocol: TCP
+  selector:
+    app: model
+```
+- `selector` 내용을 `deployment` 와 맞춰줌
+
+
+- 우선 기존 모델 띄워줌
+![image](./images/31.png)
+
+
+![image](./images/32.png)
+
+- 당연히 잘 작동함 
+
+---
+
+- 이제 새 버전의 모델을 다시 작성
+- LightGBM 모델을 이용
+
+`model_packing_save_2.py`
+```
+import torch
+import lightgbm as lgb
+import pandas as pd
+import bentoml
+import xgboost
+
+# get_model
+mo_ = torch.load('./models/lgbm_model.pth.tar')['model']
+
+# dr_lauren_classifier와 'model'로 패키징됨
+bentoml.lightgbm.save('lgbm_model', mo_)
+
+```
+
+`service_2.py`
+```
+import socket
+import numpy as np
+import pandas as pd
+import bentoml
+import xgboost
+import lightgbm
+from bentoml.io import NumpyNdarray, PandasDataFrame, Text
+
+# Load runner for the latest lightgbm model 
+lgbm_runner = bentoml.lightgbm.load_runner("lgbm_model:latest")
+
+# Creating 'lgbm_classifier' service 
+lgbm_model = bentoml.Service("lgbm_classifier", runners=[lgbm_runner])
+
+# Create API function and setting input format
+#@lgbm_model.api(input=PandasDataFrame(), output=NumpyNdarray())
+@lgbm_model.api(input=PandasDataFrame(), output=Text())
+def predict(input_arr):
+    res = lgbm_runner.run_batch(input_arr)  
+    print('node_ip :', socket.gethostbyname(socket.gethostname()))
+    ip = socket.gethostbyname(socket.gethostname())
+    return '{'+f'result: {res}, ip: {ip}'+'}'
+
+```
+- return 에 `해당 노드의 IP` 를 **출력**할 수 있도록 추가로 함수를 넣음
+- `Output Format` 은 `Text` 로 반환도록 수정
+
+`bentofile.yaml`
+```
+service: "service_2.py:lgbm_model"
+description: "file: ./README.md"
+labels:
+    owner: mj-lee
+    stage: demo
+include:
+  - "*.py"
+python:
+  packages:
+    - scikit-learn
+    - pandas
+    - xgboost
+    - numpy
+    - torch
+    - lightgbm==3.2.1 ## 해당 버전에서만 인퍼런스가 가능했음
+
+```
+
+- `bentofile` 은 build 할때 _2 는 인식 못하므로 기존 것을 `bentofile_backup.yml` 로 바꾸어줌
+- 필요한 경우 버전을 넣어줌 \
+  -> 본인은 `lgithgbm==3.2.1` 버전에서 인퍼런스가 가능했음
+
+
+- 새 모델로 교체 `deploy_model_2.yml` 파일을 이용해
+- `k apply -f deploy_model_2.yml` 실행
+
+![image](./images/33.png)
+
+- 새 pod 생성(`lgbm`)되고 기존 파드(`xgb`)가 내려감
+![image](./images/34.png)
+
+- pod 의 해시 값을 확인하면 계속 업데이트 되는 것 확인
+
+
+![image](./images/35.png)
+- 위와 같이 같은 요청을 계속 보내며 무중단 배포가 진행되면서 두개의 다른 내용의 파드가 떠있는 순간이 존재
+- 이때, **트래픽이 분산**되어 각각 다른 곳으로 데이터가 들어가 다른 결과가 리턴됨
+
+
+![image](./images/36.png)
+- 잠시 후 위처럼 완전히 모든 Pod 가 교체되면 
+
+
+![image](./images/37.png)
+- result 내부의 IP 값이 각각 다른 파드에 전달되어, 다른 IP 값을 반환하는 것을 확인
+
+
+- 이 데이터는 결국 아래의 IP 값과 매칭 되는 곳으로 데이터가 흘러들어감을 확인할 수 있음
+![image](./images/38.png)
+

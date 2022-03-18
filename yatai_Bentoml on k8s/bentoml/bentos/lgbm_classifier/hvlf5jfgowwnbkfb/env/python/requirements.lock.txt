@@ -1,0 +1,39 @@
+joblib==1.1.0
+    # via scikit-learn
+lightgbm==3.2.1
+    # via -r /tmp/tmpit1azatrbentoml_bento_lgbm_classifier/env/python/requirements.txt
+numpy==1.22.3
+    # via
+    #   -r /tmp/tmpit1azatrbentoml_bento_lgbm_classifier/env/python/requirements.txt
+    #   lightgbm
+    #   pandas
+    #   scikit-learn
+    #   scipy
+    #   xgboost
+pandas==1.4.1
+    # via -r /tmp/tmpit1azatrbentoml_bento_lgbm_classifier/env/python/requirements.txt
+python-dateutil==2.8.2
+    # via pandas
+pytz==2021.3
+    # via pandas
+scikit-learn==1.0.2
+    # via
+    #   -r /tmp/tmpit1azatrbentoml_bento_lgbm_classifier/env/python/requirements.txt
+    #   lightgbm
+scipy==1.8.0
+    # via
+    #   lightgbm
+    #   scikit-learn
+    #   xgboost
+six==1.16.0
+    # via python-dateutil
+threadpoolctl==3.1.0
+    # via scikit-learn
+torch==1.11.0
+    # via -r /tmp/tmpit1azatrbentoml_bento_lgbm_classifier/env/python/requirements.txt
+typing-extensions==4.1.1
+    # via torch
+wheel==0.37.1
+    # via lightgbm
+xgboost==1.5.2
+    # via -r /tmp/tmpit1azatrbentoml_bento_lgbm_classifier/env/python/requirements.txt

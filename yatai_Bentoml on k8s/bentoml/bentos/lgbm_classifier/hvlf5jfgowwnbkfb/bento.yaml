@@ -1,0 +1,10 @@
+service: service_2:lgbm_model
+name: lgbm_classifier
+version: hvlf5jfgowwnbkfb
+bentoml_version: 1.0.0a6
+creation_time: 2022-03-18 04:38:22.811216+00:00
+labels:
+  owner: mj-lee
+  stage: demo
+models:
+- lgbm_model:vpgjuffe6wwnbkfb
