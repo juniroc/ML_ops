@@ -1,0 +1,16 @@
+name: lgbm_model
+version: vpgjuffe6wwnbkfb
+bentoml_version: 1.0.0a6
+creation_time: 2022-03-16 06:52:39.790748+00:00
+api_version: v1
+module: bentoml.lightgbm
+context:
+  framework_name: lightgbm
+  pip_dependencies:
+  - lightgbm==3.2.1
+  bentoml_version: 1.0.0a6
+  python_version: 3.8.0
+labels: {}
+options:
+  sklearn_api: true
+metadata: {}

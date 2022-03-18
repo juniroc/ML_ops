@@ -1,0 +1,6 @@
+contexts:
+- api_token: c8pd58517c4dh9iv8n60
+  email: ''
+  endpoint: http://210.114.89.130:30049
+  name: default
+current_context_name: default

@@ -1,0 +1,10 @@
+service: service:xgb_model
+name: xgb_classifier
+version: y7xubtvfuwwnbkfb
+bentoml_version: 1.0.0a6
+creation_time: 2022-03-17 03:53:19.985576+00:00
+labels:
+  owner: mj-lee
+  stage: demo
+models:
+- xgb_model:47bkkuve6kwnbkfb

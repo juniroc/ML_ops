@@ -1,0 +1,15 @@
+name: xgb_model
+version: 47bkkuve6kwnbkfb
+bentoml_version: 1.0.0a6
+creation_time: 2022-03-16 06:32:51.898751+00:00
+api_version: v1
+module: bentoml._internal.frameworks.xgboost
+context:
+  framework_name: xgboost
+  pip_dependencies:
+  - xgboost==1.4.2
+  bentoml_version: 1.0.0a6
+  python_version: 3.8.0
+labels: {}
+options: {}
+metadata: {}

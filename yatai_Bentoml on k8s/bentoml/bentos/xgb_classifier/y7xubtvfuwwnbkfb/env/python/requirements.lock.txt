@@ -1,0 +1,31 @@
+joblib==1.1.0
+    # via scikit-learn
+numpy==1.22.3
+    # via
+    #   -r /tmp/tmpekubd8vjbentoml_bento_xgb_classifier/env/python/requirements.txt
+    #   pandas
+    #   scikit-learn
+    #   scipy
+    #   xgboost
+pandas==1.4.1
+    # via -r /tmp/tmpekubd8vjbentoml_bento_xgb_classifier/env/python/requirements.txt
+python-dateutil==2.8.2
+    # via pandas
+pytz==2021.3
+    # via pandas
+scikit-learn==1.0.2
+    # via -r /tmp/tmpekubd8vjbentoml_bento_xgb_classifier/env/python/requirements.txt
+scipy==1.8.0
+    # via
+    #   scikit-learn
+    #   xgboost
+six==1.16.0
+    # via python-dateutil
+threadpoolctl==3.1.0
+    # via scikit-learn
+torch==1.11.0
+    # via -r /tmp/tmpekubd8vjbentoml_bento_xgb_classifier/env/python/requirements.txt
+typing-extensions==4.1.1
+    # via torch
+xgboost==1.5.2
+    # via -r /tmp/tmpekubd8vjbentoml_bento_xgb_classifier/env/python/requirements.txt
