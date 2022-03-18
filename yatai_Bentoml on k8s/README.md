@@ -246,7 +246,7 @@ bentoml
 
 ![image](./images/18.png)
 
-- `bentoml containerize xgb_classifier:latest` 명령어로 컨테이너 화 ;;
+- `bentoml containerize xgb_classifier:latest` 명령어로 컨테이너 화
 
 ![image](./images/19.png)
 
@@ -272,3 +272,87 @@ bentoml
 - `sudo docker images | grep xgb`
 
 ![image](./images/23.png)
+
+- 이지미 생성 완료됨
+
+- `sudo docker run -p 3000:3000 xgb_classifier:<TAG>`
+
+![image](./images/24.png)
+
+- 이때 반드시 `-p 3000:3000` 으로 포트를 연결해주어야 인퍼런스 가능
+
+
+---
+
+### Serving To K8s
+
+- 도커 이미지 푸시해주기 위해 TAG 재설정
+
+```
+sudo docker login
+# 사내 계정인 zerooneai 로 접속
+
+sudo docker tag xgb_classifier:y7xubtvfuwwnbkfb zerooneai/xgb_model:0.0.0
+
+sudo docker push zerooneai/xgb_model:0.0.0
+```
+
+![image](./images/25.png)
+
+![image](./images/26.png)
+
+`deploy_model.yml`
+```
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: xgb-model
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: xgb-model
+  template:
+    metadata:
+      labels:
+        app: xgb-model
+    spec:
+      containers:
+        - name: xgb-model-init
+          image: zerooneai/xgb_model:0.0.0
+          ports:
+            - containerPort: 3000
+              protocol: TCP
+```
+
+- `deployment` 를 생성해줄 yml 파일 생성
+`kubectl apply -f deploy-model.yml`
+
+![image](./images/27.png)
+
+- pod 3개 생성됨
+- 뒤쪽을 보면 노드가 3, 4, 1 번 노드로 분산되어있음을 확인
+
+
+- `service` 를 외부에서 요청 가능하도록 `LoadBalancer` 로 생성
+`service-lb.yml`
+```
+apiVersion: v1
+kind: Service
+metadata:
+  name: model-lb
+spec:
+  type: LoadBalancer
+  ports:
+    - port: 3000
+#      targetPort: 31000
+      protocol: TCP
+  selector:
+    app: xgb-model
+
+```
+
+- targetPort 는 지워도됨
+- 여기서 `selector` 를 deployment 생성시 사용했던 `metadata.labels` 와 매칭시켜주어야 함
+
+![image](./images/28.png)
