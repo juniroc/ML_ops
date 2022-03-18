@@ -246,11 +246,12 @@ bentoml
 
 ![image](./images/18.png)
 
-- `bentoml containerize xgb_classifier:latest` 명령어로 컨테이너 화
+- `bentoml containerize xgb_classifier:latest` 명령어로 컨테이너 화 ;;
 
 ![image](./images/19.png)
 
 - 그런데 도커 내 permission 권한으로 인해 실행이 안됨
+
 
 - `sudo bentoml containerize xgb_classifier:latest` 를 실행해도
 
