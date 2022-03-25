@@ -381,7 +381,7 @@ print(df_.to_json())
 print(df_)
 response = requests.post(
 #    "http://127.0.0.1:3000/predict",
-    "http://210.114.89.130:30050/predict",
+    "http://<IP of k8s>:30050/predict",
     headers={"content-type": "application/json"},
     data=df_.to_json())
 
