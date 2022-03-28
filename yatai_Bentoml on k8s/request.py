@@ -11,15 +11,27 @@ df= {'time' : [2.78333, 3.183333, 4.4167775, 5.483313, 15.522422, 18.652444],
      'sysname_eq' : [0, 0, 0, 0, 0, 1]}
 df_ = pd.DataFrame(df)
 
-print(df_.to_json())
+q = []
+for idx in range(100):
+    try:
+        response = requests.post(
+    #    "http://127.0.0.1:3000/predict",
+        "http://210.114.89.130:30050/predict",
+        headers={"content-type": "application/json"},
+        data=df_.to_json())
+        print('idx :', idx)
+        print(response.text)
+    except:
+        q.append([df_,idx])
 
-print(df_)
-response = requests.post(
-#    "http://127.0.0.1:3000/predict",
-    "http://<IP of k8s>:30050/predict",
-    headers={"content-type": "application/json"},
-    data=df_.to_json())
-
-print(response.text)
-
-print(socket.gethostbyname(socket.gethostname()))
+while q:
+    df_, idx = q.pop(0)
+    try:
+        response = requests.post(
+        "http://210.114.89.130:30050/predict",
+        headers={"content-type": "application/json"},
+        data=df_.to_json())
+        print('idx :', idx)
+        print(response.text)
+    except:
+        q.append([df_,idx]) 
