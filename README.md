@@ -19,7 +19,8 @@
 
 ## model_experiment
 * [**mlflow**](https://github.com/juniroc/ML_ops/tree/main/mlflow_)
-* [**Air_flow**](https://github.com/juniroc/ML_ops/tree/main/Air_flow)
+* [**Air_flow : DockerOperator (Gnn) **](./airflow_DockerOperator)
+* [**Air_flow : tutorial (ETL) **](https://github.com/juniroc/ML_ops/tree/main/Air_flow)
 
 
 ---

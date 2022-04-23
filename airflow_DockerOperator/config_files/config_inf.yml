@@ -1,0 +1,9 @@
+dataset_path: /mnt/webmd.ftr
+
+# train: train
+train: inference
+
+version_dir: /gnn_py/versions/v_1
+
+
+seed: 123
