@@ -1,16 +1,16 @@
 # AI_OPs
 
 ## Studies
-* [**Studies**](https://github.com/juniroc/ML_ops/tree/main/Study)
+* [**Studies**](./Study)
 
 ---
 
 ## model_serving
-* [**Flask**](https://github.com/juniroc/ML_ops/tree/main/model_serving_using_flask)
+* [**Flask**](./model_serving_using_flask)
 
-* [**BentoML**](https://github.com/juniroc/ML_ops/tree/main/Bentoml_)
+* [**BentoML**](./Bentoml_)
 
-* [**mlflow**](https://github.com/juniroc/ML_ops/tree/main/mlflow_)
+* [**mlflow**](./mlflow_)
 
 * [**BentoML on k8s (Yatai)**](yatai_Bentoml%20on%20k8s/)
 
@@ -18,35 +18,35 @@
 ---
 
 ## model_experiment
-* [**mlflow**](https://github.com/juniroc/ML_ops/tree/main/mlflow_)
+* [**mlflow**](./mlflow_)
 * [**Air_flow : DockerOperator (Gnn)**](./airflow_DockerOperator)
-* [**Air_flow : tutorial (ETL)**](https://github.com/juniroc/ML_ops/tree/main/Air_flow)
+* [**Air_flow : tutorial (ETL)**](./Air_flow)
 
 
 ---
 
 ## Network
-* [**gRPC**](https://github.com/juniroc/ML_ops/tree/main/gRPC_)
+* [**gRPC**](./gRPC_)
 
 ---
 
 ## Feature_Store
-* [**feast**](https://github.com/juniroc/ML_ops/tree/main/feast_/feast_driver_ranking_tutorial)
+* [**feast**](./feast_/feast_driver_ranking_tutorial)
 
 ---
 
 ## Hyperparameter
-* [**NNI**](https://github.com/juniroc/ML_ops/tree/main/nni)
+* [**NNI**](./nni)
 
 ---
 
 ## ETC
-* [**TFX**](https://github.com/juniroc/ML_ops/tree/main/TFX)
-* [**K8S**](https://github.com/juniroc/ML_ops/tree/main/K8S)
-* [**Vertex AI**](https://github.com/juniroc/ML_ops/tree/main/vertexAI)
-* [**FastAPI**](https://github.com/juniroc/ML_ops/tree/main/FastAPI)
+* [**TFX**](./TFX)
+* [**K8S**](./K8S)
+* [**Vertex AI**](./vertexAI)
+* [**FastAPI**](./FastAPI)
 
 ---
 
 ## Pipeline_Design
-* [**feast_nni_bentoml_db**](https://github.com/juniroc/ML_ops/tree/main/feast_nni_bentoml_db)
+* [**feast_nni_bentoml_db**](./feast_nni_bentoml_db)
