@@ -12,7 +12,7 @@
 
 * [**mlflow**](./mlflow_)
 
-* [**BentoML on k8s 1.x ver.  **](yatai_Bentoml%20on%20k8s/)
+* [**BentoML on k8s 1.x ver.**](yatai_Bentoml%20on%20k8s/)
 
 
 ---
