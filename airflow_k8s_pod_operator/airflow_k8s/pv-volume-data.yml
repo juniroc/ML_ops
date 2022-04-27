@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: airflow-dataset
+  labels:
+    type: local
+spec:
+  storageClassName: air-k8s
+  capacity:
+    storage: 3Gi
+  accessModes:
+    - ReadWriteOnce
+  volumeMode: Filesystem
+  nfs:
+    path: "/home/minjun/airflow_k8s/dataset"
+    server: 192.168.1.107

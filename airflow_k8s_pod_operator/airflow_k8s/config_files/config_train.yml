@@ -1,0 +1,13 @@
+dataset_path: ./dataset/webmd.ftr
+
+# train: train
+train: train
+
+version_dir: ./versions/v_1
+
+m_ratio: 0.8
+input_f: 10
+hidden_f: 20
+output_f: 5
+
+seed: 123

@@ -1,0 +1,9 @@
+dataset_path: ./dataset/webmd.ftr
+
+# train: train
+train: inference
+
+version_dir: ./versions/v_1
+
+
+seed: 123

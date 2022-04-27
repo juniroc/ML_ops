@@ -19,8 +19,9 @@
 
 ## model_experiment
 * [**mlflow**](./mlflow_)
-* [**Air_flow : DockerOperator (Gnn)**](./airflow_DockerOperator)
 * [**Air_flow : tutorial (ETL)**](./Air_flow)
+* [**Air_flow : DockerOperator (Gnn)**](./airflow_DockerOperator)
+* [**Air_flow : K8sPodOperator (Gnn)**](./airflow_k8s_pod_operator)
 
 
 ---
