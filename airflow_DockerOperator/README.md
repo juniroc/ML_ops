@@ -945,3 +945,10 @@ PermissionError: [Errno 13] Permission denied
 ![image](./images/7.png)
 
 - 실행이 완료되면 위와 같이 마운트된 versions 에 pickle 파일들이 존재함을 알 수 있음
+
+
+![image](./images/8.png)
+
+![image](./images/9.png)
+
+- 위 사진처럼 각 프로세스마다 Container 가 생성되며, 완료되면 제거되는 형태로 진행됨
