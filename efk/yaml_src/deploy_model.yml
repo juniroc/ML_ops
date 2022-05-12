@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: xgb-model
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: xgb-model
+  template:
+    metadata:
+      labels:
+        app: xgb-model
+    spec:
+      containers:
+        - name: xgb-model-init
+          image: zerooneai/xgb_model:0.0.0
+          ports:
+            - containerPort: 3000
+              protocol: TCP
