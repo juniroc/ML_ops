@@ -1,0 +1,33 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  name: vs-test-bento
+spec:
+  hosts:
+  - "test-bento.cloud.ainode.ai"
+  gateways:
+  - default/gw-bento-test
+  http:
+  - match:
+    - uri:
+        prefix: "/predict"
+    route:
+    - destination:
+        host: model-lb
+        port:
+          number: 3000
+---
+apiVersion: networking.istio.io/v1alpha3
+kind: Gateway
+metadata:
+  name: gw-bento-test
+spec:
+  selector:
+    istio: ingressgateway
+  servers:
+  - port:
+      number: 80
+      name: http
+      protocol: HTTP
+    hosts:
+    - "test-bento.cloud.ainode.ai"
